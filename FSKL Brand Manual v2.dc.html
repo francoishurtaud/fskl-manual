@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+<meta name="ext-resource-dependency" content="assets/crop/c31.jpg" data-resource-id="assets-crop-c31-jpg" />
+<meta name="ext-resource-dependency" content="assets/crop/c34.jpg" data-resource-id="assets-crop-c34-jpg" />
+<meta name="ext-resource-dependency" content="assets/crop/c53.jpg" data-resource-id="assets-crop-c53-jpg" />
+<meta name="ext-resource-dependency" content="assets/crop/c55_web.jpg" data-resource-id="assets-crop-c55-web-jpg" />
+<meta name="ext-resource-dependency" content="assets/crop/safe-area.png" data-resource-id="assets-crop-safe-area-png" />
+<meta name="ext-resource-dependency" content="assets/logo/rf-color.png" data-resource-id="assets-logo-rf-color-png" />
+<meta name="ext-resource-dependency" content="assets/logo/rf-color.pdf" data-resource-id="assets-logo-rf-color-pdf" />
+<meta name="ext-resource-dependency" content="assets/logo/rf-black.png" data-resource-id="assets-logo-rf-black-png" />
+<meta name="ext-resource-dependency" content="assets/logo/rf-black.pdf" data-resource-id="assets-logo-rf-black-pdf" />
+<meta name="ext-resource-dependency" content="assets/logo/rf-white.png" data-resource-id="assets-logo-rf-white-png" />
+<meta name="ext-resource-dependency" content="assets/logo/rf-white.pdf" data-resource-id="assets-logo-rf-white-pdf" />
+<meta name="ext-resource-dependency" content="assets/logo/aefe-color.png" data-resource-id="assets-logo-aefe-color-png" />
+<meta name="ext-resource-dependency" content="assets/logo/aefe-color.pdf" data-resource-id="assets-logo-aefe-color-pdf" />
+<meta name="ext-resource-dependency" content="assets/logo/aefe-black.png" data-resource-id="assets-logo-aefe-black-png" />
+<meta name="ext-resource-dependency" content="assets/logo/aefe-black.pdf" data-resource-id="assets-logo-aefe-black-pdf" />
+<meta name="ext-resource-dependency" content="assets/logo/aefe-white.png" data-resource-id="assets-logo-aefe-white-png" />
+<meta name="ext-resource-dependency" content="assets/logo/aefe-white.pdf" data-resource-id="assets-logo-aefe-white-pdf" />
+<meta name="ext-resource-dependency" content="assets/logo/coq-navy.png" data-resource-id="assets-logo-coq-navy-png" />
+<meta name="ext-resource-dependency" content="assets/logo/coq-tint.png" data-resource-id="assets-logo-coq-tint-png" />
+<meta name="ext-resource-dependency" content="assets/logo/coq-vellum.png" data-resource-id="assets-logo-coq-vellum-png" />
+<meta name="ext-resource-dependency" content="assets/logo/coq-white.png" data-resource-id="assets-logo-coq-white-png" />
+<meta name="ext-resource-dependency" content="assets/logo/emblem-black.jpg" data-resource-id="assets-logo-emblem-black-jpg" />
+<meta name="ext-resource-dependency" content="assets/logo/emblem-black.png" data-resource-id="assets-logo-emblem-black-png" />
+<meta name="ext-resource-dependency" content="assets/logo/emblem-neg.jpg" data-resource-id="assets-logo-emblem-neg-jpg" />
+<meta name="ext-resource-dependency" content="assets/logo/emblem-negblue.jpg" data-resource-id="assets-logo-emblem-negblue-jpg" />
+<meta name="ext-resource-dependency" content="assets/logo/emblem.jpg" data-resource-id="assets-logo-emblem-jpg" />
+<meta name="ext-resource-dependency" content="assets/logo/emblem.png" data-resource-id="assets-logo-emblem-png" />
+<meta name="ext-resource-dependency" content="assets/logo/fav.png" data-resource-id="assets-logo-fav-png" />
+<meta name="ext-resource-dependency" content="assets/logo/hevea-navy.png" data-resource-id="assets-logo-hevea-navy-png" />
+<meta name="ext-resource-dependency" content="assets/logo/hevea-tint.png" data-resource-id="assets-logo-hevea-tint-png" />
+<meta name="ext-resource-dependency" content="assets/logo/hevea-vellum.png" data-resource-id="assets-logo-hevea-vellum-png" />
+<meta name="ext-resource-dependency" content="assets/logo/hevea-white.png" data-resource-id="assets-logo-hevea-white-png" />
+<meta name="ext-resource-dependency" content="assets/logo/land-black.png" data-resource-id="assets-logo-land-black-png" />
+<meta name="ext-resource-dependency" content="assets/logo/land-email.png" data-resource-id="assets-logo-land-email-png" />
+<meta name="ext-resource-dependency" content="assets/logo/land-long.png" data-resource-id="assets-logo-land-long-png" />
+<meta name="ext-resource-dependency" content="assets/logo/land-neg.png" data-resource-id="assets-logo-land-neg-png" />
+<meta name="ext-resource-dependency" content="assets/logo/land-negblue.png" data-resource-id="assets-logo-land-negblue-png" />
+<meta name="ext-resource-dependency" content="assets/logo/land.png" data-resource-id="assets-logo-land-png" />
+<meta name="ext-resource-dependency" content="assets/logo/manifesto-hevea.png" data-resource-id="assets-logo-manifesto-hevea-png" />
+<meta name="ext-resource-dependency" content="assets/logo/master-aefe.png" data-resource-id="assets-logo-master-aefe-png" />
+<meta name="ext-resource-dependency" content="assets/logo/master-rf-aefe.png" data-resource-id="assets-logo-master-rf-aefe-png" />
+<meta name="ext-resource-dependency" content="assets/logo/motion.png" data-resource-id="assets-logo-motion-png" />
+<meta name="ext-resource-dependency" content="assets/logo/portrait-black.png" data-resource-id="assets-logo-portrait-black-png" />
+<meta name="ext-resource-dependency" content="assets/logo/portrait-neg.png" data-resource-id="assets-logo-portrait-neg-png" />
+<meta name="ext-resource-dependency" content="assets/logo/portrait-negblue.png" data-resource-id="assets-logo-portrait-negblue-png" />
+<meta name="ext-resource-dependency" content="assets/logo/portrait.png" data-resource-id="assets-logo-portrait-png" />
+<meta name="ext-resource-dependency" content="assets/logo/shield-monogram.png" data-resource-id="assets-logo-shield-monogram-png" />
+<meta name="ext-resource-dependency" content="assets/logo/system.png" data-resource-id="assets-logo-system-png" />
+<meta name="ext-resource-dependency" content="assets/logo/types-black.png" data-resource-id="assets-logo-types-black-png" />
+<meta name="ext-resource-dependency" content="assets/logo/types-institutional.png" data-resource-id="assets-logo-types-institutional-png" />
+<meta name="ext-resource-dependency" content="assets/logo/types-neg.png" data-resource-id="assets-logo-types-neg-png" />
+<meta name="ext-resource-dependency" content="assets/logo/types-negblue.png" data-resource-id="assets-logo-types-negblue-png" />
+<meta name="ext-resource-dependency" content="assets/logo/types.png" data-resource-id="assets-logo-types-png" />
+<meta name="ext-resource-dependency" content="assets/logo/wordmark-black.png" data-resource-id="assets-logo-wordmark-black-png" />
+<meta name="ext-resource-dependency" content="assets/logo/wordmark-neg.png" data-resource-id="assets-logo-wordmark-neg-png" />
+<meta name="ext-resource-dependency" content="assets/logo/wordmark-negblue.png" data-resource-id="assets-logo-wordmark-negblue-png" />
+<meta name="ext-resource-dependency" content="assets/logo/wordmark.png" data-resource-id="assets-logo-wordmark-png" />
+<meta name="ext-resource-dependency" content="assets/raw/p002_1.png" data-resource-id="assets-raw-p002-1-png" />
+<meta name="ext-resource-dependency" content="assets/raw/p006_1.jpg" data-resource-id="assets-raw-p006-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p008_1.jpg" data-resource-id="assets-raw-p008-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p009_2.jpg" data-resource-id="assets-raw-p009-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p012_1.png" data-resource-id="assets-raw-p012-1-png" />
+<meta name="ext-resource-dependency" content="assets/raw/p012_2.png" data-resource-id="assets-raw-p012-2-png" />
+<meta name="ext-resource-dependency" content="assets/raw/p012_3.png" data-resource-id="assets-raw-p012-3-png" />
+<meta name="ext-resource-dependency" content="assets/raw/p012_4.png" data-resource-id="assets-raw-p012-4-png" />
+<meta name="ext-resource-dependency" content="assets/raw/p015_1.jpg" data-resource-id="assets-raw-p015-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p015_2.png" data-resource-id="assets-raw-p015-2-png" />
+<meta name="ext-resource-dependency" content="assets/raw/p015_3.png" data-resource-id="assets-raw-p015-3-png" />
+<meta name="ext-resource-dependency" content="assets/raw/p027_1.png" data-resource-id="assets-raw-p027-1-png" />
+<meta name="ext-resource-dependency" content="assets/raw/p027_3.jpg" data-resource-id="assets-raw-p027-3-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p027_4.jpg" data-resource-id="assets-raw-p027-4-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p027_5.jpg" data-resource-id="assets-raw-p027-5-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p029_5.png" data-resource-id="assets-raw-p029-5-png" />
+<meta name="ext-resource-dependency" content="assets/raw/p036_1.png" data-resource-id="assets-raw-p036-1-png" />
+<meta name="ext-resource-dependency" content="assets/raw/p038_4.jpg" data-resource-id="assets-raw-p038-4-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p041_1.png" data-resource-id="assets-raw-p041-1-png" />
+<meta name="ext-resource-dependency" content="assets/raw/p041_2.jpg" data-resource-id="assets-raw-p041-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p047_3.png" data-resource-id="assets-raw-p047-3-png" />
+<meta name="ext-resource-dependency" content="assets/raw/p048_1.png" data-resource-id="assets-raw-p048-1-png" />
+<meta name="ext-resource-dependency" content="assets/raw/p050_1.jpg" data-resource-id="assets-raw-p050-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p050_2.jpg" data-resource-id="assets-raw-p050-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p056_1.jpg" data-resource-id="assets-raw-p056-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p058_1.jpg" data-resource-id="assets-raw-p058-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p060_1.jpg" data-resource-id="assets-raw-p060-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p061_1.jpg" data-resource-id="assets-raw-p061-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p062_1.jpg" data-resource-id="assets-raw-p062-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p062_2.jpg" data-resource-id="assets-raw-p062-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p062_3.jpg" data-resource-id="assets-raw-p062-3-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p062_4.jpg" data-resource-id="assets-raw-p062-4-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p062_5.jpg" data-resource-id="assets-raw-p062-5-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p063_1.jpg" data-resource-id="assets-raw-p063-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p063_2.jpg" data-resource-id="assets-raw-p063-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p063_3.jpg" data-resource-id="assets-raw-p063-3-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p064_1.jpg" data-resource-id="assets-raw-p064-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p064_2.jpg" data-resource-id="assets-raw-p064-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p065_1.jpg" data-resource-id="assets-raw-p065-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p066_1.jpg" data-resource-id="assets-raw-p066-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p072_1.jpg" data-resource-id="assets-raw-p072-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p073_1.jpg" data-resource-id="assets-raw-p073-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p074_1.jpg" data-resource-id="assets-raw-p074-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p075_1.jpg" data-resource-id="assets-raw-p075-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p075_2.jpg" data-resource-id="assets-raw-p075-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p076_1.jpg" data-resource-id="assets-raw-p076-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p076_2.jpg" data-resource-id="assets-raw-p076-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p077_1.jpg" data-resource-id="assets-raw-p077-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p078_1.jpg" data-resource-id="assets-raw-p078-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p078_2.jpg" data-resource-id="assets-raw-p078-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p079_1.jpg" data-resource-id="assets-raw-p079-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p079_2.jpg" data-resource-id="assets-raw-p079-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p080_1.jpg" data-resource-id="assets-raw-p080-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p080_2.jpg" data-resource-id="assets-raw-p080-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p081_1.jpg" data-resource-id="assets-raw-p081-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p081_2.jpg" data-resource-id="assets-raw-p081-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p082_1.jpg" data-resource-id="assets-raw-p082-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p082_2.jpg" data-resource-id="assets-raw-p082-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p082_3.jpg" data-resource-id="assets-raw-p082-3-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p083_1.jpg" data-resource-id="assets-raw-p083-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p083_2.jpg" data-resource-id="assets-raw-p083-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p083_3.jpg" data-resource-id="assets-raw-p083-3-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p084_1.jpg" data-resource-id="assets-raw-p084-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p085_1.jpg" data-resource-id="assets-raw-p085-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p086_1.jpg" data-resource-id="assets-raw-p086-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p087_1.jpg" data-resource-id="assets-raw-p087-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p087_2.jpg" data-resource-id="assets-raw-p087-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p087_3.jpg" data-resource-id="assets-raw-p087-3-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p088_1.jpg" data-resource-id="assets-raw-p088-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p088_2.jpg" data-resource-id="assets-raw-p088-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p088_3.jpg" data-resource-id="assets-raw-p088-3-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p089_1.jpg" data-resource-id="assets-raw-p089-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p089_2.jpg" data-resource-id="assets-raw-p089-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p090_1.jpg" data-resource-id="assets-raw-p090-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p090_2.jpg" data-resource-id="assets-raw-p090-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p091_1.jpg" data-resource-id="assets-raw-p091-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p097_1.jpg" data-resource-id="assets-raw-p097-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p097_2.jpg" data-resource-id="assets-raw-p097-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p098_1.jpg" data-resource-id="assets-raw-p098-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p099_1.jpg" data-resource-id="assets-raw-p099-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p100_1.jpg" data-resource-id="assets-raw-p100-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p101_1.jpg" data-resource-id="assets-raw-p101-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p102_1.jpg" data-resource-id="assets-raw-p102-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p103_1.jpg" data-resource-id="assets-raw-p103-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p104_1.jpg" data-resource-id="assets-raw-p104-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p105_1.jpg" data-resource-id="assets-raw-p105-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p106_1.jpg" data-resource-id="assets-raw-p106-1-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p106_2.jpg" data-resource-id="assets-raw-p106-2-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p114_3.jpg" data-resource-id="assets-raw-p114-3-jpg" />
+<meta name="ext-resource-dependency" content="assets/raw/p114_6.png" data-resource-id="assets-raw-p114-6-png" />
+<meta name="ext-resource-dependency" content="assets/social/facebook.svg" data-resource-id="assets-social-facebook-svg" />
+<meta name="ext-resource-dependency" content="assets/social/instagram.svg" data-resource-id="assets-social-instagram-svg" />
+<meta name="ext-resource-dependency" content="assets/social/linkedin.svg" data-resource-id="assets-social-linkedin-svg" />
+<meta name="ext-resource-dependency" content="assets/social/tiktok.svg" data-resource-id="assets-social-tiktok-svg" />
+<meta name="ext-resource-dependency" content="assets/social/whatsapp.svg" data-resource-id="assets-social-whatsapp-svg" />
+<meta name="ext-resource-dependency" content="assets/social/youtube.svg" data-resource-id="assets-social-youtube-svg" />
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" data-bg-color="#002654"><rect width="120" height="120" fill="#002654"/><text x="60" y="76" text-anchor="middle" font-family="Georgia, serif" font-size="46" fill="#FFFFFF">FSKL</text></svg></template>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FSKL · Brand Manual</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Montserrat+Alternates:wght@700;800&amp;display=swap">
+<script src="content-1.js"></script>
+<script src="content-2.js"></script>
+<script src="content-3.js"></script>
+<script src="content-diagrams.js"></script>
+<script src="lucide-icons.js"></script>
+<style>
+html,body{margin:0;padding:0;background:var(--page);}
+body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+a{color:#002654;text-underline-offset:3px;}
+a:hover{color:#CC0000;}
+button{border-radius:999px;}
+::selection{background:#FFD100;color:#111111;}
+button,input,textarea{font:inherit;}
+button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid #CC0000;outline-offset:2px;}
+</style>
+</helmet>
+<div data-screen-label="{{ screenLabel }}" style="--page:{{ pageBg }};--card:{{ cardBg }};min-height:100vh;background:var(--page);color:#111111;font-family:Arial, Helvetica, sans-serif;font-size:16px;overflow-x:clip;">
+
+<sc-if value="{{ narrow }}" hint-placeholder-val="{{ false }}"><header style="position:sticky;top:0;z-index:30;height:64px;display:flex;align-items:center;gap:14px;padding:0 {{ hdrPad }}px;background:var(--page);border-bottom:1px solid rgba(17,17,17,0.12);box-sizing:border-box;">
+    <button onClick="{{ toggleNav }}" aria-label="{{ ui.menu }}" style="flex:0 0 44px;width:44px;height:44px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;background:transparent;border:1px solid rgba(17,17,17,0.2);cursor:pointer;padding:0;">
+      <span style="width:18px;height:1.5px;background:#111111;"></span>
+      <span style="width:18px;height:1.5px;background:#111111;"></span>
+      <span style="width:18px;height:1.5px;background:#111111;"></span>
+    </button>
+</header></sc-if>
+
+<div style="display:flex;align-items:flex-start;">
+  <sc-if value="{{ showScrim }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeNav }}" style="position:fixed;inset:64px 0 0 0;background:rgba(0,20,45,0.35);z-index:35;"></div>
+  </sc-if>
+  <aside aria-label="{{ ui.menu }}" style="display:{{ nav.display }};position:{{ nav.pos }};top:{{ navTop }}px;left:0;z-index:{{ nav.z }};width:{{ nav.w }};flex:0 0 {{ nav.w }};height:calc(100vh - {{ navTop }}px);overflow-y:auto;background:var(--page);border-right:1px solid rgba(17,17,17,0.12);box-shadow:{{ nav.shadow }};padding:20px 14px 40px;box-sizing:border-box;">
+    <div style="display:flex;align-items:center;gap:8px;padding:0 0 14px;margin-bottom:10px;border-bottom:1px solid rgba(17,17,17,0.12);">
+  <div data-search="1" style="position:relative;flex:1 1 auto;min-width:0;">
+    <input type="search" value="{{ q }}" onChange="{{ onQuery }}" onFocus="{{ openSearch }}" onKeyDown="{{ onSearchKey }}" placeholder="" aria-label="{{ ui.search }}" style="width:100%;height:40px;box-sizing:border-box;padding:0 16px;border:1px solid rgba(17,17,17,0.22);background:#FFFFFF;font-size:14px;color:#111111;border-radius:999px;">
+    <sc-if value="{{ showResults }}" hint-placeholder-val="{{ false }}">
+      <div style="position:{{ sr.pos }};top:{{ sr.top }};left:{{ sr.left }};right:{{ sr.right }};width:{{ sr.width }};max-height:70vh;overflow-y:auto;background:var(--card);box-shadow:0 18px 50px rgba(0,38,84,0.18);border:1px solid rgba(17,17,17,0.1);z-index:60;">
+        <div style="padding:12px 18px;font-size:12px;color:#4F4A47;border-bottom:1px solid rgba(17,17,17,0.1);">{{ resultCount }}</div>
+        <sc-for list="{{ results }}" as="r" hint-placeholder-count="0">
+          <button onClick="{{ r.onClick }}" style="display:flex;flex-direction:column;gap:4px;width:100%;text-align:left;padding:14px 18px;border-radius:0;background:var(--card);border:0;border-bottom:1px solid rgba(17,17,17,0.08);cursor:pointer;" style-hover="background:var(--page);">
+            <span style="font-size:11px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#CC0000;">{{ r.part }}</span>
+            <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:17px;color:#111111;">{{ r.sec }}</span>
+            <span style="font-size:13px;line-height:1.5;color:#4F4A47;">{{ r.pre }}<mark style="background:#FFD100;color:#111111;padding:0 1px;">{{ r.hit }}</mark>{{ r.post }}</span>
+          </button>
+        </sc-for>
+        <sc-if value="{{ noResults }}" hint-placeholder-val="{{ false }}">
+          <div style="padding:18px;font-size:14px;color:#4F4A47;">{{ ui.noResults }}</div>
+        </sc-if>
+      </div>
+    </sc-if>
+  </div>
+  <div role="group" aria-label="Language" style="display:flex;flex:0 0 auto;gap:2px;background:#f0ebe5;padding:3px;border-radius:999px;">
+    <button onClick="{{ setEn }}" aria-pressed="{{ isEn }}" style="min-width:40px;height:36px;padding:0 12px;border:0;border-radius:999px;background:{{ enBg }};color:{{ enFg }};font-size:12px;font-weight:600;letter-spacing:0.06em;cursor:pointer;transition:all 150ms ease;">EN</button>
+    <button onClick="{{ setFr }}" aria-pressed="{{ isFr }}" style="min-width:40px;height:36px;padding:0 12px;border:0;border-radius:999px;background:{{ frBg }};color:{{ frFg }};font-size:12px;font-weight:600;letter-spacing:0.06em;cursor:pointer;transition:all 150ms ease;">FR</button>
+  </div>
+    </div>
+    <button onClick="{{ goHome }}" style="border-radius:20px;display:grid;grid-template-columns:30px 1fr;gap:8px;width:100%;text-align:left;padding:10px;background:{{ homeNav.bg }};border:0;cursor:pointer;color:#111111;align-items:baseline;" style-hover="background:var(--card);">
+      <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:15px;color:#002654;">00</span>
+      <span style="font-size:13.5px;font-weight:{{ homeNav.weight }};">{{ ui.home }}</span>
+    </button>
+    <div style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#CC0000;padding:18px 10px 8px;">{{ ui.contents }}</div>
+    <sc-for list="{{ navParts }}" as="np" hint-placeholder-count="12">
+      <div>
+        <button onClick="{{ np.onClick }}" style="border-radius:20px;display:grid;grid-template-columns:30px 1fr;gap:8px;width:100%;text-align:left;padding:10px;background:{{ np.bg }};border:0;cursor:pointer;color:#111111;align-items:baseline;" style-hover="background:var(--card);">
+          <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:15px;color:{{ np.numColor }};">{{ np.num }}</span>
+          <span style="font-size:13.5px;line-height:1.35;font-weight:{{ np.weight }};">{{ np.title }}</span>
+        </button>
+        <sc-if value="{{ np.active }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;flex-direction:column;padding:2px 0 12px 48px;">
+            <sc-for list="{{ np.sections }}" as="ns" hint-placeholder-count="4">
+              <button onClick="{{ ns.onClick }}" style="text-align:left;background:none;border:0;padding:6px 6px 6px 0;font-size:11.5px;line-height:1.4;letter-spacing:0.04em;text-transform:uppercase;color:{{ ns.color }};font-weight:{{ ns.weight }};cursor:pointer;" style-hover="color:#CC0000;">{{ ns.title }}</button>
+            </sc-for>
+          </div>
+        </sc-if>
+      </div>
+    </sc-for>
+  </aside>
+
+  <main style="flex:1;min-width:0;">
+    <sc-if value="{{ ready }}" hint-placeholder-val="{{ false }}">
+
+      <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+        <div style="position:relative;overflow:hidden;background:#002654;color:#FFFFFF;padding:{{ coverPad }};min-height:600px;display:flex;flex-direction:column;justify-content:space-between;gap:48px;box-sizing:border-box;">
+          <img src="assets/logo/coq-white.png" alt="" style="position:absolute;right:-8%;bottom:-22%;height:125%;width:auto;opacity:0.1;pointer-events:none;">
+          <div style="position:relative;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;line-height:1.6;">
+            <span>{{ ui.coverTitle }}</span>
+            <span style="text-align:right;">{{ ui.edition }}<br>{{ ui.era }}</span>
+          </div>
+          <div style="position:relative;display:flex;flex-direction:column;gap:30px;">
+            <img src="assets/logo/land-negblue.png" alt="FSKL French School Kuala Lumpur, Henri Fauconnier, est. 1962" style="width:min(460px, 86%);height:auto;display:block;">
+            <p style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:{{ sloganFs }}px;line-height:1.25;margin:0;">{{ ui.slogan }}</p>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;">
+              <button onClick="{{ goFirst }}" style="height:48px;padding:0 24px;background:#FFFFFF;color:#002654;border:1px solid #FFFFFF;font-size:14px;font-weight:600;cursor:pointer;" style-active="transform:translateY(1px);">{{ ui.start }}</button>
+              <button onClick="{{ goQuick }}" style="height:48px;padding:0 24px;background:transparent;color:#FFFFFF;border:1px solid rgba(255,255,255,0.6);font-size:14px;font-weight:600;cursor:pointer;" style-hover="border-color:#FFFFFF;" style-active="transform:translateY(1px);">{{ ui.quick }}</button>
+              <button onClick="{{ goQa }}" style="height:48px;padding:0 24px;background:transparent;color:#FFFFFF;border:1px solid rgba(255,255,255,0.6);font-size:14px;font-weight:600;cursor:pointer;" style-hover="border-color:#FFFFFF;" style-active="transform:translateY(1px);">{{ ui.qa }}</button>
+            </div>
+          </div>
+          <p style="position:relative;font-size:12px;line-height:1.6;color:rgba(255,255,255,0.75);margin:0;max-width:72ch;">{{ ui.confidential }}</p>
+        </div>
+
+        <section style="padding:{{ secPad }};">
+          <div style="max-width:1180px;">
+            <span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#CC0000;">{{ ui.contents }}</span>
+            <h2 style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-weight:400;font-size:{{ h2 }}px;line-height:1.15;margin:14px 0 0;">{{ ui.contentsTitle }}</h2>
+            <div style="height:1px;background:rgba(17,17,17,0.25);margin-top:22px;"></div>
+            <div style="display:grid;grid-template-columns:{{ tocGrid }};gap:16px;margin-top:32px;">
+              <sc-for list="{{ toc }}" as="tc" hint-placeholder-count="12">
+                <button onClick="{{ tc.onClick }}" style="text-align:left;background:var(--card);border:1px solid rgba(17,17,17,0.04);padding:26px;display:flex;flex-direction:column;gap:12px;cursor:pointer;min-height:230px;color:#111111;border-radius:20px;" style-hover="border-color:#002654;">
+                  <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:52px;line-height:0.9;color:#002654;">{{ tc.num }}</span>
+                  <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:21px;line-height:1.2;">{{ tc.title }}</span>
+                  <span style="font-size:13px;line-height:1.55;color:#4F4A47;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;">{{ tc.intro }}</span>
+                  <span style="margin-top:auto;font-size:12px;font-weight:600;color:#002654;">{{ tc.count }}</span>
+                </button>
+              </sc-for>
+            </div>
+          </div>
+        </section>
+      </sc-if>
+
+      <sc-if value="{{ isPart }}" hint-placeholder-val="{{ false }}">
+        <div style="position:relative;overflow:hidden;background:#002654;color:#FFFFFF;padding:{{ coverPad }};min-height:340px;display:grid;grid-template-columns:{{ phCols }};gap:24px 32px;align-items:end;box-sizing:border-box;">
+          <div style="display:flex;flex-direction:column;gap:18px;max-width:660px;position:relative;">
+            <span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.78);">{{ ui.part }} {{ cur.num }}</span>
+            <h1 style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-weight:400;font-size:{{ phTitle }}px;line-height:1.05;margin:0;text-wrap:balance;">{{ cur.title }}</h1>
+            <sc-if value="{{ cur.hasIntro }}" hint-placeholder-val="{{ true }}">
+              <p style="font-size:16px;line-height:1.65;color:rgba(255,255,255,0.86);margin:0;max-width:58ch;">{{ cur.intro }}</p>
+            </sc-if>
+          </div>
+          <div aria-hidden="true" style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:{{ phNum }}px;line-height:0.78;justify-self:end;position:relative;">{{ cur.num }}</div>
+        </div>
+      </sc-if>
+
+      <sc-for list="{{ sections }}" as="s" hint-placeholder-count="2">
+        <section id="{{ s.domId }}" data-sec="{{ s.id }}" style="{{ s.style }}">
+          <div style="max-width:1180px;">
+            <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+              <span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#CC0000;">{{ s.kicker }}</span>
+              <sc-if value="{{ s.draft }}" hint-placeholder-val="{{ false }}">
+                <span style="font-size:11px;font-weight:600;padding:3px 8px;background:#FFD100;color:#111111;">{{ ui.draft }}</span>
+              </sc-if>
+              <sc-if value="{{ s.review }}" hint-placeholder-val="{{ false }}">
+                <span style="font-size:11px;font-weight:600;padding:3px 8px;background:#FFD100;color:#111111;">{{ ui.review }}</span>
+              </sc-if>
+            </div>
+            <h2 style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-weight:400;font-size:{{ h2 }}px;line-height:1.15;margin:14px 0 0;max-width:24em;text-wrap:balance;color:#111111;"><sc-for list="{{ s.titleSegs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for></h2>
+            <div style="height:1px;background:rgba(17,17,17,0.25);margin-top:22px;"></div>
+            <sc-if value="{{ s.hasSub }}" hint-placeholder-val="{{ false }}">
+              <p style="font-size:16px;line-height:1.65;color:#4F4A47;margin:22px 0 0;max-width:72ch;">{{ s.sub }}</p>
+            </sc-if>
+
+            <sc-for list="{{ s.rows }}" as="row" hint-placeholder-count="1">
+              <div style="display:grid;grid-template-columns:repeat(12, minmax(0, 1fr));gap:28px clamp(8px, 2.5vw, 36px);margin-top:{{ row.mt }};align-items:start;">
+                <sc-for list="{{ row.cols }}" as="col" hint-placeholder-count="1">
+                  <div style="grid-column:span {{ col.span }};display:flex;flex-direction:column;gap:{{ row.cg }};min-width:0;">
+                    <sc-for list="{{ col.blocks }}" as="b" hint-placeholder-count="1">
+                      <div style="min-width:0;">
+
+<sc-if value="{{ b.is_lead }}" hint-placeholder-val="{{ false }}"><p style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:{{ b.fs }}px;line-height:1.45;margin:0;max-width:34em;white-space:pre-line;text-wrap:pretty;color:#111111;"><sc-for list="{{ b.segs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for></p></sc-if>
+
+<sc-if value="{{ b.is_p }}" hint-placeholder-val="{{ false }}"><p style="font-size:16px;line-height:1.65;margin:0;max-width:68ch;white-space:pre-line;color:#2A2624;text-wrap:pretty;"><sc-for list="{{ b.segs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for></p></sc-if>
+
+<sc-if value="{{ b.is_h }}" hint-placeholder-val="{{ false }}"><h3 style="font-size:17px;font-weight:600;line-height:1.3;margin:10px 0 0;color:#002654;">{{ b.text }}</h3></sc-if>
+
+<sc-if value="{{ b.is_note }}" hint-placeholder-val="{{ false }}"><p style="font-size:14px;font-style:italic;line-height:1.6;margin:0;max-width:80ch;color:#4F4A47;white-space:pre-line;"><sc-for list="{{ b.segs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for></p></sc-if>
+
+<sc-if value="{{ b.is_rule }}" hint-placeholder-val="{{ false }}"><div style="background: {{ b.bg }}; color: {{ b.fg }}; padding: 16px 20px; font-size: 14.5px; font-weight: 600; line-height: 1.55; white-space: pre-line; border-radius: 70px"><sc-for list="{{ b.segs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for></div></sc-if>
+
+<sc-if value="{{ b.is_statement }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);border:{{ b.border }};border-radius:{{ b.radius }};padding:{{ b.pad }};display:flex;flex-direction:column;gap:16px;">
+  <sc-if value="{{ b.hasLabel }}" hint-placeholder-val="{{ false }}"><span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#002654;">{{ b.label }}</span></sc-if>
+  <p style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:{{ b.fs }}px;line-height:1.5;margin:0;white-space:pre-line;text-align:{{ b.align }};text-wrap:pretty;color:#111111;"><sc-for list="{{ b.segs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for></p>
+</div></sc-if>
+
+<sc-if value="{{ b.is_cards }}" hint-placeholder-val="{{ false }}"><div style="display:grid;grid-template-columns:{{ b.grid }};gap:16px;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0">
+    <div onClick="{{ it.onClick }}" style="position:relative;background:{{ it.bg }};color:{{ it.fg }};padding:{{ it.pad }};display:flex;flex-direction:column;gap:12px;cursor:{{ it.cursor }};min-width:0;border:1px solid {{ it.border }};">
+      <sc-if value="{{ it.isCurrent }}" hint-placeholder-val="{{ false }}"><span style="position:absolute;top:10px;right:10px;font-size:10.5px;font-weight:700;background:#FFD100;color:#111111;padding:3px 7px;">{{ it.currentLabel }}</span></sc-if>
+      <sc-if value="{{ it.hasChip }}" hint-placeholder-val="{{ false }}"><div style="height:72px;background:{{ it.chip }};border:1px solid rgba(17,17,17,0.14);"></div></sc-if>
+      <sc-if value="{{ it.hasPhoto }}" hint-placeholder-val="{{ false }}"><img src="{{ it.photo }}" alt="{{ it.title }}" onClick="{{ it.zoom }}" style="width:100%;height:{{ it.photoH }}px;object-fit:cover;display:block;cursor:zoom-in;"></sc-if>
+      <sc-if value="{{ it.hasImg }}" hint-placeholder-val="{{ false }}"><div style="height:{{ it.imgH }}px;display:flex;align-items:center;justify-content:center;background:{{ it.imgBg }};padding:{{ it.imgPad }};box-sizing:border-box;overflow:hidden;"><img src="{{ it.img }}" alt="{{ it.title }}" style="max-width:100%;max-height:100%;width:{{ it.imgW }};height:{{ it.imgHH }};object-fit:{{ it.imgFit }};display:block;"></div></sc-if>
+      <sc-if value="{{ it.hasBars }}" hint-placeholder-val="{{ false }}"><div style="height:150px;display:flex;flex-direction:column;border:1px solid rgba(17,17,17,0.12);"><div style="flex:3;background:#FFFFFF;"></div><div style="flex:1.2;background:#F9F1EC;"></div><div style="flex:0.5;background:#FFD100;"></div><div style="flex:0.7;background:#CC0000;"></div><div style="flex:2;background:#002654;"></div><div style="flex:0.6;background:#111111;"></div></div></sc-if>
+      <sc-if value="{{ it.hasAa }}" hint-placeholder-val="{{ false }}"><div style="height:150px;display:flex;align-items:center;justify-content:center;gap:12px;"><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:72px;line-height:1;">Aa</span><span style="font-family:Arial, Helvetica, sans-serif;font-size:46px;line-height:1;">Aa</span></div></sc-if>
+      <sc-if value="{{ it.hasIcon }}" hint-placeholder-val="{{ false }}"><img src="{{ it.icon }}" alt="" style="width:64px;height:64px;object-fit:contain;display:block;"></sc-if>
+      <sc-if value="{{ it.hasFlag }}" hint-placeholder-val="{{ false }}"><img src="{{ it.flag }}" alt="" style="width:40px;height:26px;object-fit:cover;display:block;border:1px solid rgba(17,17,17,0.1);"></sc-if>
+      <sc-if value="{{ it.hasDisplay }}" hint-placeholder-val="{{ false }}"><div style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:24px;line-height:1.2;min-height:48px;display:flex;align-items:center;">{{ it.display }}</div></sc-if>
+      <sc-if value="{{ it.hasMeta }}" hint-placeholder-val="{{ false }}"><div style="display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;">
+        <sc-if value="{{ it.hasNum }}" hint-placeholder-val="{{ false }}"><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:18px;color:{{ it.accent }};">{{ it.num }}</span></sc-if>
+        <sc-if value="{{ it.hasLabel }}" hint-placeholder-val="{{ false }}"><span style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:{{ it.accent }};">{{ it.label }}</span></sc-if>
+      </div></sc-if>
+      <sc-if value="{{ it.hasDur }}" hint-placeholder-val="{{ false }}"><div style="height:6px;width:{{ it.durW }};background:#CC0000;"></div></sc-if>
+      <sc-if value="{{ it.hasTitle }}" hint-placeholder-val="{{ false }}"><div style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:{{ it.titleFs }}px;line-height:1.25;">{{ it.title }}</div></sc-if>
+      <sc-if value="{{ it.hasText }}" hint-placeholder-val="{{ false }}"><div style="font-family:{{ it.textFont }};font-size:{{ it.textSize }}px;font-style:{{ it.textStyle }};line-height:1.6;white-space:pre-line;color:{{ it.mut }};"><sc-for list="{{ it.segs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for></div></sc-if>
+      <sc-if value="{{ it.hasExample }}" hint-placeholder-val="{{ false }}"><div style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:20px;padding-top:14px;border-top:1px solid rgba(17,17,17,0.12);">{{ it.example }}</div></sc-if>
+      <sc-if value="{{ it.hasTags }}" hint-placeholder-val="{{ false }}"><div style="font-size:10.5px;font-weight:600;letter-spacing:0.08em;line-height:1.5;color:#CC0000;margin-top:auto;padding-top:6px;">{{ it.tags }}</div></sc-if>
+      <sc-if value="{{ it.hasFoot }}" hint-placeholder-val="{{ false }}"><div style="margin-top:auto;padding-top:14px;border-top:1px solid {{ it.rule }};font-size:12.5px;font-weight:600;">{{ it.foot }}</div></sc-if>
+      <sc-if value="{{ it.hasLink }}" hint-placeholder-val="{{ false }}"><span style="margin-top:auto;font-size:12.5px;font-weight:600;color:#002654;text-decoration:underline;text-underline-offset:3px;">{{ it.linkLabel }}</span></sc-if>
+    </div>
+  </sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_table }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:6px 24px 10px;overflow-x:auto;">
+  <div style="min-width:{{ b.minW }}px;">
+    <sc-if value="{{ b.hasHead }}" hint-placeholder-val="{{ false }}"><div style="display:grid;grid-template-columns:{{ b.gridCols }};gap:0 20px;padding:16px 0 10px;border-bottom:1.5px solid #111111;">
+      <sc-for list="{{ b.head }}" as="h" hint-placeholder-count="0"><div style="font-size:11.5px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:#002654;line-height:1.35;">{{ h.text }}</div></sc-for>
+    </div></sc-if>
+    <sc-for list="{{ b.rows }}" as="r" hint-placeholder-count="0"><div style="display:grid;grid-template-columns:{{ b.gridCols }};gap:6px 20px;padding:14px 0;border-bottom:{{ r.border }};">
+      <sc-for list="{{ r.cells }}" as="c" hint-placeholder-count="0"><div style="font-size:14.5px;line-height:1.55;font-weight:{{ c.w }};color:{{ c.c }};white-space:pre-line;min-width:0;">
+        <sc-if value="{{ c.hasImgs }}" hint-placeholder-val="{{ false }}"><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;min-width:0;"><sc-for list="{{ c.imgs }}" as="im" hint-placeholder-count="0"><img src="{{ im.src }}" alt="" style="max-height:64px;height:auto;width:auto;max-width:100%;object-fit:contain;display:block;min-width:0;background:transparent;"></sc-for></div></sc-if>
+        <sc-for list="{{ c.segs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for>
+      </div></sc-for>
+    </div></sc-for>
+  </div>
+</div></sc-if>
+
+<sc-if value="{{ b.is_list }}" hint-placeholder-val="{{ false }}"><div style="display:flex;flex-direction:column;gap:{{ b.gap }}px;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0">
+    <div>
+      <sc-if value="{{ it.isDefs }}" hint-placeholder-val="{{ false }}"><div style="padding:12px 0;border-top:1px solid rgba(17,17,17,0.14);display:flex;flex-direction:column;gap:4px;">
+        <div style="font-size:14px;font-weight:700;color:{{ it.titleColor }};">{{ it.title }}</div>
+        <div style="font-size:15px;line-height:1.6;color:#2A2624;white-space:pre-line;"><sc-for list="{{ it.segs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for></div>
+      </div></sc-if>
+      <sc-if value="{{ it.isMarked }}" hint-placeholder-val="{{ false }}"><div style="display:grid;grid-template-columns:{{ it.cols }};gap:12px;align-items:{{ it.align }};">
+        <span aria-hidden="true" style="font-family:{{ it.markerFont }};font-size:{{ it.markerSize }}px;color:{{ it.markerColor }};font-weight:700;line-height:1.5;">{{ it.marker }}</span>
+        <sc-if value="{{ it.hasImg }}" hint-placeholder-val="{{ false }}"><img src="{{ it.img }}" alt="" style="width:48px;height:48px;object-fit:contain;display:block;"></sc-if>
+        <div style="font-family:{{ it.font }};font-size:{{ it.fs }}px;line-height:1.6;color:#2A2624;white-space:pre-line;"><sc-for list="{{ it.segs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for></div>
+      </div></sc-if>
+    </div>
+  </sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_images }}" hint-placeholder-val="{{ false }}"><div style="display:grid;grid-template-columns:{{ b.grid }};gap:16px;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0">
+    <figure style="margin:0;grid-column:{{ it.span }};display:flex;flex-direction:column;gap:8px;min-width:0;">
+      <sc-if value="{{ it.isImg }}" hint-placeholder-val="{{ true }}"><button onClick="{{ it.onClick }}" aria-label="{{ it.alt }}" style="border-radius:0;display:block;width:100%;height:{{ it.h }}px;padding:{{ it.pad }}px;background:{{ it.bg }};border:0;cursor:zoom-in;box-sizing:border-box;"><img src="{{ it.src }}" alt="{{ it.alt }}" loading="lazy" style="width:100%;height:100%;object-fit:{{ it.fit }};display:block;"></button></sc-if>
+      <sc-if value="{{ it.ph }}" hint-placeholder-val="{{ false }}"><div style="height:{{ it.h }}px;display:flex;align-items:center;justify-content:center;background:#F9F1EC;border:1px dashed rgba(17,17,17,0.28);box-sizing:border-box;font-size:14px;font-weight:600;color:#4F4A47;">Render to be replaced</div></sc-if>
+      <sc-if value="{{ it.hasCap }}" hint-placeholder-val="{{ false }}"><figcaption style="font-size:13px;font-style:italic;line-height:1.45;color:#4F4A47;">{{ it.cap }}</figcaption></sc-if>
+    </figure>
+  </sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_lines }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:{{ b.pad }};">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><p style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:{{ b.fs }}px;line-height:1.5;margin:0;padding:15px 0;border-bottom:{{ it.border }};">{{ it.text }}</p></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_stats }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:32px;display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:30px 24px;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="grid-column:{{ it.span }};display:flex;flex-direction:column;gap:8px;">
+    <sc-if value="{{ it.hasBig }}" hint-placeholder-val="{{ false }}"><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:64px;line-height:1;color:#002654;">{{ it.big }}</span></sc-if>
+    <sc-if value="{{ it.hasImg }}" hint-placeholder-val="{{ false }}"><img src="{{ it.img }}" alt="AEFE" style="height:84px;width:auto;align-self:flex-start;display:block;"></sc-if>
+    <span style="font-size:13.5px;line-height:1.45;color:#4F4A47;">{{ it.text }}</span>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_tone }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:{{ b.pad }};">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="display:grid;grid-template-columns:{{ b.cols }};gap:10px 18px;align-items:center;padding:20px 0;border-bottom:{{ it.border }};">
+    <span style="font-size:13px;font-style:italic;color:#4F4A47;text-align:right;">{{ it.l }}</span>
+    <div style="position:relative;height:16px;"><div style="position:absolute;left:0;right:0;top:7.5px;height:1px;background:rgba(17,17,17,0.35);"></div><div style="position:absolute;top:1px;left:{{ it.left }};width:14px;height:14px;margin-left:-7px;border-radius:50%;background:#002654;"></div></div>
+    <span style="font-size:13px;font-style:italic;color:#4F4A47;">{{ it.r }}</span>
+    <span style="grid-column:{{ b.textSpan }};font-size:15px;line-height:1.5;color:#111111;"><sc-for list="{{ it.segs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for></span>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_swatches }}" hint-placeholder-val="{{ false }}"><div style="display:grid;grid-template-columns:{{ b.grid }};gap:16px;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="background:var(--card);display:flex;flex-direction:column;min-width:0;">
+    <div style="height:150px;background:{{ it.bg }};border-bottom:1px solid rgba(17,17,17,0.1);padding:16px;display:flex;align-items:flex-end;color:{{ it.fg }};font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:19px;line-height:1.2;box-sizing:border-box;">{{ it.name }}</div>
+    <div style="padding:14px;display:flex;flex-direction:column;gap:6px;">
+      <sc-for list="{{ it.codes }}" as="cd" hint-placeholder-count="0"><button onClick="{{ cd.onClick }}" title="{{ cd.title }}" style="display:flex;justify-content:space-between;align-items:center;gap:8px;min-height:38px;padding:6px 10px;background:{{ cd.bg }};border:1px solid rgba(17,17,17,0.16);cursor:copy;font-size:13px;font-weight:500;font-variant-numeric:tabular-nums;color:#111111;text-align:left;" style-hover="border-color:#002654;"><span>{{ cd.c }}</span><span style="font-size:11px;font-weight:600;color:#002654;">{{ cd.state }}</span></button></sc-for>
+      <sc-if value="{{ it.hasTints }}" hint-placeholder-val="{{ false }}"><div style="display:flex;gap:4px;margin-top:6px;"><sc-for list="{{ it.tints }}" as="tn" hint-placeholder-count="0"><button onClick="{{ tn.onClick }}" title="{{ tn.hex }}" style="flex:1;min-width:0;height:36px;padding:0;background:{{ tn.hex }};color:{{ tn.fg }};border:1px solid rgba(17,17,17,0.14);font-size:10.5px;font-weight:600;cursor:copy;">{{ tn.label }}</button></sc-for></div></sc-if>
+      <sc-if value="{{ it.hasCodeNote }}" hint-placeholder-val="{{ false }}"><span style="font-size:12px;font-style:italic;color:#4F4A47;">{{ it.codeNote }}</span></sc-if>
+      <span style="font-size:13px;line-height:1.5;color:#4F4A47;margin-top:6px;">{{ it.use }}</span>
+    </div>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_ratio }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:28px;display:flex;flex-direction:column;gap:18px;">
+  <span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#002654;">{{ b.title }}</span>
+  <div style="display:flex;height:72px;border:1px solid rgba(17,17,17,0.14);"><sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div title="{{ it.tip }}" style="width:{{ it.width }};background:{{ it.bg }};"></div></sc-for></div>
+  <div style="display:flex;flex-wrap:wrap;gap:12px 28px;"><sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="display:flex;align-items:center;gap:10px;"><span style="width:14px;height:14px;background:{{ it.bg }};border:1px solid rgba(17,17,17,0.25);"></span><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:20px;">{{ it.pct }}%</span><span style="font-size:13px;color:#4F4A47;">{{ it.name }}</span></div></sc-for></div>
+</div></sc-if>
+
+<sc-if value="{{ b.is_layoutex }}" hint-placeholder-val="{{ false }}"><div style="display:grid;grid-template-columns:{{ b.grid }};gap:16px;align-items:start;">
+  <div style="background:var(--card);padding:22px;display:flex;flex-direction:column;gap:14px;">
+    <span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#002654;">{{ b.lbl.web }}</span>
+    <div style="border:1px solid rgba(17,17,17,0.18);background:#FFFFFF;display:flex;flex-direction:column;">
+      <div style="height:38px;padding:0 14px;display:flex;align-items:center;justify-content:space-between;background:#FFFFFF;"><img src="assets/logo/land.png" alt="" style="height:22px;width:auto;"><div style="display:flex;gap:8px;"><span style="width:28px;height:4px;background:#111111;"></span><span style="width:28px;height:4px;background:#111111;"></span><span style="width:28px;height:4px;background:#111111;"></span></div></div>
+      <div style="background:#002654;padding:26px 20px;display:flex;flex-direction:column;gap:12px;align-items:flex-start;"><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:26px;line-height:1.1;color:#FFFFFF;">{{ b.lbl.headline }}</span><span style="width:44px;height:3px;background:#FFD100;"></span><span style="background:#CC0000;color:#FFFFFF;border-radius:999px;padding:8px 18px;font-size:12.5px;font-weight:600;">{{ b.lbl.cta }}</span></div>
+      <div style="background:#F9F1EC;padding:18px 20px;display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));gap:14px;"><div style="display:flex;flex-direction:column;gap:6px;"><span style="height:5px;background:#111111;width:60%;"></span><span style="height:4px;background:rgba(17,17,17,0.35);"></span><span style="height:4px;background:rgba(17,17,17,0.35);width:85%;"></span></div><div style="display:flex;flex-direction:column;gap:6px;"><span style="height:5px;background:#111111;width:60%;"></span><span style="height:4px;background:rgba(17,17,17,0.35);"></span><span style="height:4px;background:rgba(17,17,17,0.35);width:85%;"></span></div><div style="display:flex;flex-direction:column;gap:6px;"><span style="height:5px;background:#111111;width:60%;"></span><span style="height:4px;background:rgba(17,17,17,0.35);"></span><span style="height:4px;background:rgba(17,17,17,0.35);width:85%;"></span></div></div>
+      <div style="background:#FFFFFF;padding:12px 20px;display:flex;gap:8px;align-items:center;"><span style="width:10px;height:10px;border-radius:50%;background:#FFD100;"></span><span style="font-size:11.5px;color:#4F4A47;">Est. 1962</span></div>
+    </div>
+    <span style="font-size:13px;line-height:1.5;color:#4F4A47;">{{ b.lbl.webNote }}</span>
+  </div>
+  <div style="background:var(--card);padding:22px;display:flex;flex-direction:column;gap:14px;">
+    <span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#002654;">{{ b.lbl.print }}</span>
+    <div style="border:1px solid rgba(17,17,17,0.18);background:#F9F1EC;padding:26px 24px;display:flex;flex-direction:column;gap:16px;min-height:360px;box-sizing:border-box;">
+      <img src="assets/logo/land.png" alt="" style="height:30px;width:auto;align-self:flex-start;">
+      <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:34px;line-height:1.08;color:#002654;margin-top:18px;">{{ b.lbl.headline }}</span>
+      <span style="width:56px;height:4px;background:#CC0000;"></span>
+      <div style="display:flex;flex-direction:column;gap:7px;max-width:70%;"><span style="height:5px;background:#111111;"></span><span style="height:5px;background:#111111;width:90%;"></span><span style="height:5px;background:#111111;width:75%;"></span></div>
+      <div style="margin-top:auto;display:flex;align-items:center;justify-content:space-between;"><span style="background: #FFD100; color: #111111; padding: 6px 12px; font-size: 9px; font-weight: 600; border-radius: 40px">Est. 1962</span><span style="width:46px;height:46px;border-radius:50%;background:#002654;"></span></div>
+    </div>
+    <span style="font-size:13px;line-height:1.5;color:#4F4A47;">{{ b.lbl.printNote }}</span>
+  </div>
+</div></sc-if>
+
+<sc-if value="{{ b.is_sample }}" hint-placeholder-val="{{ false }}"><div style="border:1.5px solid #002654;border-radius:20px;padding:36px 34px;display:flex;flex-direction:column;gap:20px;">
+  <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:40px;line-height:1.1;font-weight:700;color:#CC0000;">{{ b.title }}</span>
+  <span style="font-family:Montserrat, Arial, sans-serif;font-size:21px;line-height:1.4;color:#111111;">{{ b.lead }}</span>
+  <sc-for list="{{ b.paras }}" as="p" hint-placeholder-count="0"><span style="font-family:Montserrat, Arial, sans-serif;font-size:15px;line-height:1.55;color:#111111;">{{ p }}</span></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_social }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:22px 26px;display:flex;flex-direction:column;gap:14px;">
+  <span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#002654;">{{ b.title }}</span>
+  <div style="display:flex;flex-wrap:wrap;gap:12px;"><sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="display:flex;align-items:center;gap:12px;border:1px solid rgba(17,17,17,0.16);border-radius:999px;padding:10px 20px 10px 14px;"><img src="{{ it.icon }}" alt="" style="width:26px;height:26px;display:block;"><span style="font-size:14px;font-weight:600;color:#111111;">{{ it.name }}</span></div></sc-for></div>
+  <span style="font-size:12.5px;color:#4F4A47;">{{ b.note }}</span>
+</div></sc-if>
+
+<sc-if value="{{ b.is_compare }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:18px;display:flex;flex-direction:column;gap:14px;">
+  <div style="display:flex;flex-wrap:wrap;gap:8px;"><sc-for list="{{ b.thumbs }}" as="th" hint-placeholder-count="0"><button onClick="{{ th.onClick }}" aria-label="{{ th.label }}" style="width:64px;height:48px;padding:0;border-radius:12px;overflow:hidden;border:2px solid {{ th.bd }};cursor:pointer;background:#EDE5DF;"><img src="{{ th.src }}" alt="" style="width:100%;height:100%;object-fit:cover;display:block;"></button></sc-for></div>
+  <div style="position:relative;height:{{ b.h }}px;overflow:hidden;border-radius:14px;background:#EDE5DF;user-select:none;">
+    <img src="{{ b.src }}" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:{{ b.fBefore }};">
+    <img src="{{ b.src }}" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:{{ b.fAfter }};clip-path:{{ b.clip }};">
+    <div style="position:absolute;top:0;bottom:0;left:{{ b.pos }}%;width:2px;background:#FFFFFF;box-shadow:0 0 0 1px rgba(17,17,17,0.25);pointer-events:none;"><span style="position:absolute;top:50%;left:50%;width:36px;height:36px;margin:-18px 0 0 -18px;border-radius:50%;background:#FFFFFF;box-shadow:0 2px 10px rgba(17,17,17,0.3);display:flex;align-items:center;justify-content:center;font-size:14px;color:#002654;">↔</span></div>
+    <span style="position:absolute;left:12px;top:12px;background:rgba(17,17,17,0.72);color:#FFFFFF;border-radius:999px;padding:4px 12px;font-size:12px;font-weight:600;">{{ b.lblBefore }}</span>
+    <span style="position:absolute;right:12px;top:12px;background:#002654;color:#FFFFFF;border-radius:999px;padding:4px 12px;font-size:12px;font-weight:600;">{{ b.lblAfter }}</span>
+    <input type="range" min="0" max="100" value="{{ b.pos }}" onChange="{{ b.onPos }}" onInput="{{ b.onPos }}" aria-label="{{ b.lblSlider }}" style="position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0;">
+  </div>
+  <span style="font-size:12.5px;line-height:1.5;color:#4F4A47;">{{ b.note }}</span>
+</div></sc-if>
+
+<sc-if value="{{ b.is_fontlinks }}" hint-placeholder-val="{{ false }}"><div style="display:flex;flex-direction:column;gap:12px;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="background:var(--card);padding:22px 26px;display:grid;grid-template-columns:{{ b.cols }};gap:14px 28px;align-items:center;">
+    <div style="display:flex;flex-direction:column;gap:4px;min-width:0;"><span style="font-family:{{ it.stack }};font-size:30px;line-height:1.1;font-weight:{{ it.weight }};color:#111111;">{{ it.name }}</span><span style="font-size:12.5px;color:#4F4A47;">{{ it.role }}</span></div>
+    <span style="font-size:13.5px;line-height:1.5;color:#4F4A47;">{{ it.note }}</span>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;"><sc-for list="{{ it.links }}" as="lk" hint-placeholder-count="0"><a href="{{ lk.url }}" target="_blank" rel="noopener" style="min-height:44px;display:inline-flex;align-items:center;padding:0 20px;border-radius:999px;border:1px solid #002654;color:#002654;font-size:13.5px;font-weight:600;text-decoration:none;" style-hover="background:#002654;color:#FFFFFF;">{{ lk.label }} ↗</a></sc-for></div>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_modes }}" hint-placeholder-val="{{ false }}"><div style="display:flex;flex-direction:column;">
+  <div role="tablist" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;"><sc-for list="{{ b.tabs }}" as="tb" hint-placeholder-count="0"><button role="tab" aria-selected="{{ tb.sel }}" onClick="{{ tb.onClick }}" style="min-height:44px;padding:8px 16px;border:1px solid {{ tb.border }};background:{{ tb.bg }};color:{{ tb.fg }};font-size:13.5px;font-weight:600;cursor:pointer;">{{ tb.label }}</button></sc-for></div>
+  <div style="height:{{ b.stageH }}px;background:{{ b.curBg }};display:flex;align-items:center;justify-content:center;transition:background-color 320ms cubic-bezier(0.22, 1, 0.36, 1);border:1px solid rgba(17,17,17,0.1);"><img src="{{ b.curImg }}" alt="{{ b.curLabel }}" style="height:64%;max-width:48%;width:auto;display:block;object-fit:contain;"><sc-if value="{{ b.hasImg2 }}" hint-placeholder-val="{{ false }}"><img src="{{ b.curImg2 }}" alt="{{ b.curLabel }}" style="height:64%;max-width:30%;width:auto;display:block;object-fit:contain;margin-left:9%;"></sc-if></div>
+</div></sc-if>
+
+<sc-if value="{{ b.is_anim }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);display:flex;flex-direction:column;">
+  <div style="height:{{ b.stageH }}px;display:flex;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;">
+    <div style="position:relative;width:{{ b.logoW }}px;height:{{ b.logoHt }}px;">
+      <img ref="{{ b.wordRef }}" src="{{ b.img }}" alt="" style="position:absolute;inset:0;width:100%;height:100%;clip-path:inset(0 0 0 38%);">
+      <img ref="{{ b.shieldRef }}" src="{{ b.img }}" alt="FSKL" style="position:absolute;inset:0;width:100%;height:100%;clip-path:inset(0 62% 0 0);transform-origin:17% 60%;">
+    </div>
+  </div>
+  <div style="display:flex;flex-wrap:wrap;gap:8px;padding:14px 16px;border-top:1px solid rgba(17,17,17,0.1);align-items:center;">
+    <button onClick="{{ b.onPlay }}" style="min-height:44px;padding:0 18px;background:#002654;color:#FFFFFF;border:1px solid #002654;font-size:13.5px;font-weight:600;cursor:pointer;" style-active="transform:translateY(1px);">{{ b.playLabel }}</button>
+    <button onClick="{{ b.onExit }}" style="min-height:44px;padding:0 18px;background:var(--card);color:#002654;border:1px solid #002654;font-size:13.5px;font-weight:600;cursor:pointer;" style-active="transform:translateY(1px);">{{ b.exitLabel }}</button>
+    <button onClick="{{ b.onBreath }}" aria-pressed="{{ b.breathing }}" style="min-height:44px;padding:0 18px;background:{{ b.breathBg }};color:{{ b.breathFg }};border:1px solid #002654;font-size:13.5px;font-weight:600;cursor:pointer;">{{ b.breathLabel }}</button>
+    <span style="font-size:12px;color:#4F4A47;margin-left:auto;">1.6 s · cubic-bezier(0.22, 1, 0.36, 1)</span>
+  </div>
+</div></sc-if>
+
+<sc-if value="{{ b.is_checker }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:28px;display:flex;flex-direction:column;gap:14px;margin-top:8px;">
+  <label for="fskl-checker" style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:22px;color:#111111;">{{ b.title }}</label>
+  <textarea id="fskl-checker" value="{{ b.value }}" onChange="{{ b.onChange }}" placeholder="{{ b.placeholder }}" rows="5" style="width:100%;box-sizing:border-box;padding:14px;border:1px solid rgba(17,17,17,0.3);background:var(--page);font-size:15px;line-height:1.6;color:#111111;resize:vertical;border-radius:0;"></textarea>
+  <sc-if value="{{ b.hasAvoid }}" hint-placeholder-val="{{ false }}"><div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;"><span style="font-size:13.5px;font-weight:600;color:#A30000;">{{ b.foundText }}</span><sc-for list="{{ b.avoidFound }}" as="w" hint-placeholder-count="0"><span style="padding:5px 10px;font-size:13px;color:#A30000;border:1px solid rgba(204,0,0,0.4);text-decoration:line-through;">{{ w.text }}</span></sc-for></div></sc-if>
+  <sc-if value="{{ b.noAvoid }}" hint-placeholder-val="{{ false }}"><div style="font-size:13.5px;font-weight:600;color:#2E6B3F;">✓ {{ b.okText }}</div></sc-if>
+  <sc-if value="{{ b.hasUse }}" hint-placeholder-val="{{ false }}"><div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;"><span style="font-size:13.5px;font-weight:600;color:#002654;">{{ b.useText }}</span><sc-for list="{{ b.useFound }}" as="w" hint-placeholder-count="0"><span style="padding:5px 10px;font-size:13px;color:#002654;border:1px solid rgba(0,38,84,0.35);">{{ w.text }}</span></sc-for></div></sc-if>
+</div></sc-if>
+
+<sc-if value="{{ b.is_chips }}" hint-placeholder-val="{{ false }}"><div style="display:flex;flex-wrap:wrap;gap:8px;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><span style="padding:7px 12px;font-size:13.5px;border:1px solid {{ it.border }};color:{{ it.fg }};background:var(--card);text-decoration:{{ it.deco }};">{{ it.text }}</span></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_qa }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:{{ b.pad }};display:flex;flex-direction:column;gap:18px;">
+  <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;">
+    <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:24px;">{{ b.title }}</span>
+    <div style="display:flex;align-items:center;gap:14px;">
+      <span style="font-size:13.5px;color:#4F4A47;font-variant-numeric:tabular-nums;">{{ b.count }} / {{ b.total }} {{ b.progress }}</span>
+      <button onClick="{{ b.onReset }}" style="min-height:40px;padding:0 14px;background:var(--card);border:1px solid rgba(17,17,17,0.25);font-size:13px;font-weight:600;color:#111111;cursor:pointer;" style-hover="border-color:#002654;">{{ b.reset }}</button>
+    </div>
+  </div>
+  <div style="height:4px;background:rgba(0,38,84,0.12);"><div style="height:100%;width:{{ b.pct }};background:{{ b.barColor }};transition:width 320ms cubic-bezier(0.22, 1, 0.36, 1);"></div></div>
+  <div style="display:grid;grid-template-columns:{{ b.grid }};gap:0 36px;">
+    <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><button role="checkbox" aria-checked="{{ it.checked }}" onClick="{{ it.onClick }}" style="border-radius:0;display:grid;grid-template-columns:24px minmax(0, 1fr);gap:14px;align-items:start;text-align:left;padding:14px 0;background:none;border:0;border-bottom:1px solid rgba(17,17,17,0.1);cursor:pointer;min-height:48px;color:#111111;">
+      <span style="width:22px;height:22px;border:1.5px solid {{ it.boxBorder }};background:{{ it.boxBg }};color:#FFFFFF;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;box-sizing:border-box;transition:background-color 200ms ease;">{{ it.mark }}</span>
+      <span style="font-size:15px;line-height:1.5;">{{ it.text }}</span>
+    </button></sc-for>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:6px;max-width:360px;">
+    <label for="fskl-reviewer" style="font-size:13px;font-weight:600;color:#002654;">{{ b.reviewer }}</label>
+    <input id="fskl-reviewer" value="{{ b.reviewerVal }}" onChange="{{ b.onReviewer }}" placeholder="{{ b.reviewerPh }}" style="height:44px;padding:0 12px;border:1px solid rgba(17,17,17,0.3);background:var(--page);font-size:15px;color:#111111;border-radius:0;">
+  </div>
+  <sc-if value="{{ b.allDone }}" hint-placeholder-val="{{ false }}"><div style="background:#002654;color:#FFFFFF;padding:14px 18px;font-weight:600;font-size:15px;">✓ {{ b.done }}</div></sc-if>
+</div></sc-if>
+
+<sc-if value="{{ b.is_typescale }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:{{ b.pad }};">
+  <div role="tablist" style="display:flex;gap:8px;flex-wrap:wrap;padding-bottom:18px;"><sc-for list="{{ b.tabs }}" as="tb" hint-placeholder-count="0"><button role="tab" aria-selected="{{ tb.sel }}" onClick="{{ tb.onClick }}" style="min-height:44px;padding:8px 16px;border:1px solid {{ tb.border }};background:{{ tb.bg }};color:{{ tb.fg }};font-size:13.5px;font-weight:600;cursor:pointer;">{{ tb.label }}</button></sc-for></div>
+  <sc-for list="{{ b.rows }}" as="r" hint-placeholder-count="0"><div style="display:grid;grid-template-columns:{{ b.cols }};gap:6px 24px;align-items:baseline;padding:18px 0;border-top:1px solid rgba(17,17,17,0.1);">
+    <span style="font-family:{{ r.font }};font-size:{{ r.size }}px;font-weight:{{ r.weight }};font-style:{{ r.fstyle }};text-transform:{{ r.tt }};letter-spacing:{{ r.ls }};line-height:{{ r.lh }};color:#111111;overflow-wrap:anywhere;">{{ r.sample }}</span>
+    <span style="font-size:12.5px;line-height:1.45;color:#4F4A47;">{{ r.spec }}</span>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_specimen }}" hint-placeholder-val="{{ false }}"><div style="display:grid;grid-template-columns:{{ b.grid }};gap:16px;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="background:var(--card);padding:32px;display:flex;flex-direction:column;gap:18px;min-width:0;">
+    <span style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#CC0000;">{{ it.level }}</span>
+    <div style="display:flex;gap:28px;align-items:flex-end;flex-wrap:wrap;">
+      <span style="font-family:{{ it.stack }};font-weight:{{ it.weight }};font-size:{{ it.aaSize }}px;line-height:0.9;color:#111111;">Aa</span>
+      <div style="display:flex;flex-direction:column;gap:2px;padding-bottom:6px;">
+        <span style="font-family:{{ it.stack }};font-size:22px;font-weight:{{ it.weight }};">{{ it.name }}</span>
+        <sc-if value="{{ it.showWeights }}" hint-placeholder-val="{{ false }}"><div style="display:flex;gap:14px;font-family:{{ it.stack }};font-size:15px;color:#4F4A47;"><span>Regular</span><span style="font-weight:700;">Bold</span><span style="font-style:italic;">Italic</span></div></sc-if>
+      </div>
+    </div>
+    <div style="font-family:{{ it.stack }};font-weight:{{ it.weight }};font-size:{{ it.charSize }}px;line-height:1.4;overflow-wrap:anywhere;color:#111111;">AaBbCcDdEeFfGgHhIiJjKkLlMm<br>NnOoPpQqRrSsTtUuVvWwXxYyZz<br>1234567890 &amp;?!() àéèçœ « »</div>
+    <sc-if value="{{ it.hasTag }}" hint-placeholder-val="{{ false }}"><div style="font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#002654;">{{ it.tag }}</div></sc-if>
+    <sc-if value="{{ it.hasDesc }}" hint-placeholder-val="{{ false }}"><p style="font-size:15px;line-height:1.6;margin:0;color:#2A2624;max-width:60ch;">{{ it.desc }}</p></sc-if>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_levels }}" hint-placeholder-val="{{ false }}"><div style="display:grid;grid-template-columns:{{ b.grid }};gap:16px;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="background:var(--card);padding:34px;display:flex;flex-direction:column;gap:8px;">
+    <span style="font-size:12px;font-weight:600;color:#CC0000;">{{ it.label }}</span>
+    <span style="font-size:13px;color:#4F4A47;">{{ it.sub }}</span>
+    <div style="margin:28px 0 18px;display:flex;flex-direction:column;gap:8px;align-items:center;text-align:center;">
+      <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:48px;line-height:1.1;">Baskerville</span>
+      <span style="font-family:{{ it.sansStack }};font-size:28px;font-weight:500;">{{ it.sans }}</span>
+    </div>
+    <p style="font-size:14.5px;line-height:1.6;margin:0;color:#2A2624;">{{ it.text }}</p>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_fallback }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:24px 28px;display:flex;flex-direction:column;">
+  <span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#002654;padding-bottom:8px;">{{ b.title }}</span>
+  <sc-for list="{{ b.rows }}" as="r" hint-placeholder-count="0"><div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;padding:18px 0;border-top:1px solid rgba(17,17,17,0.1);">
+    <span style="font-family:{{ r.s }};font-size:26px;min-width:180px;">{{ r.name }}</span>
+    <sc-for list="{{ r.chain }}" as="ch" hint-placeholder-count="0"><span style="display:inline-flex;gap:12px;align-items:baseline;"><span style="color:#CC0000;font-size:16px;">→</span><span style="font-family:{{ ch.s }};font-size:20px;color:#4F4A47;">{{ ch.n }}</span></span></sc-for>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_pyramid }}" hint-placeholder-val="{{ false }}"><div style="display:flex;flex-direction:column;align-items:center;gap:6px;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="width:{{ it.width }};background:{{ it.bg }};color:{{ it.fg }};padding:20px 24px;text-align:center;box-sizing:border-box;display:flex;flex-direction:column;gap:6px;">
+    <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:20px;">{{ it.title }}</span>
+    <span style="font-size:13.5px;line-height:1.5;color:{{ it.mut }};">{{ it.text }}</span>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_flow }}" hint-placeholder-val="{{ false }}"><div style="display:grid;grid-template-columns:{{ b.grid }};gap:16px;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="background:{{ it.bg }};color:{{ it.fg }};padding:24px;display:flex;flex-direction:column;gap:8px;min-height:140px;">
+    <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:28px;line-height:1;color:{{ it.numColor }};">{{ it.num }}</span>
+    <span style="font-size:16px;font-weight:600;margin-top:8px;">{{ it.title }}</span>
+    <span style="font-size:14px;line-height:1.5;color:{{ it.mut }};">{{ it.text }}</span>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_schedule }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:6px 24px;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="display:grid;grid-template-columns:72px minmax(0, 1fr);gap:16px;align-items:baseline;padding:14px 0;border-bottom:{{ it.border }};">
+    <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:20px;color:#002654;font-variant-numeric:tabular-nums;">{{ it.time }}</span>
+    <span style="font-size:15px;line-height:1.5;">{{ it.text }}</span>
+  </div></sc-for>
+</div></sc-if>
+
+
+<sc-if value="{{ b.is_venn }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:28px;display:flex;flex-direction:column;gap:22px;">
+  <div style="position:relative;width:100%;max-width:440px;aspect-ratio:1 / 0.92;margin:0 auto;">
+    <sc-for list="{{ b.circles }}" as="ci" hint-placeholder-count="0"><div style="position:absolute;left:{{ ci.x }};top:{{ ci.y }};width:58%;aspect-ratio:1 / 1;border-radius:50%;background:{{ ci.bg }};border:1.5px solid {{ ci.line }};display:flex;align-items:{{ ci.ai }};justify-content:{{ ci.jc }};padding:{{ ci.pad }};box-sizing:border-box;"><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:{{ b.fs }}px;line-height:1.2;color:#111111;max-width:8em;">{{ ci.title }}</span></div></sc-for>
+    <div style="position: absolute; left: 50%; top: {{ b.cy }}; transform: translate(-50%, -50%); background: #002654; color: #FFFFFF; padding: 8px 12px; font-size: 11.5px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; text-align: center; max-width: 42%; line-height: 1.3; border-radius: 40px">{{ b.center }}</div>
+  </div>
+  <sc-if value="{{ b.hasLegend }}" hint-placeholder-val="{{ false }}"><div style="display:grid;grid-template-columns:{{ b.lgrid }};gap:16px 24px;"><sc-for list="{{ b.circles }}" as="ci" hint-placeholder-count="0"><div style="display:flex;flex-direction:column;gap:4px;border-top:2px solid {{ ci.line }};padding-top:10px;"><span style="font-size:14px;font-weight:700;">{{ ci.title }}</span><span style="font-size:14px;line-height:1.55;color:#4F4A47;">{{ ci.text }}</span></div></sc-for></div></sc-if>
+</div></sc-if>
+
+<sc-if value="{{ b.is_tree }}" hint-placeholder-val="{{ false }}"><div style="display:flex;flex-direction:column;align-items:center;">
+  <sc-for list="{{ b.levels }}" as="lv" hint-placeholder-count="0"><div style="display:flex;flex-direction:column;align-items:center;width:100%;">
+    <sc-if value="{{ lv.notFirst }}" hint-placeholder-val="{{ false }}"><div style="width:1.5px;height:26px;background:#002654;"></div></sc-if>
+    <sc-if value="{{ lv.isSplit }}" hint-placeholder-val="{{ false }}"><div style="width:{{ lv.barW }};height:1.5px;background:#002654;"></div></sc-if>
+    <div style="display:grid;grid-template-columns:{{ lv.grid }};gap:16px;width:{{ lv.w }};">
+      <sc-for list="{{ lv.nodes }}" as="nd" hint-placeholder-count="0"><div style="display:flex;flex-direction:column;align-items:center;">
+        <sc-if value="{{ lv.isSplit }}" hint-placeholder-val="{{ false }}"><div style="width:1.5px;height:18px;background:#002654;"></div></sc-if>
+        <div style="background:{{ nd.bg }};color:{{ nd.fg }};padding:22px 26px;width:100%;box-sizing:border-box;display:grid;grid-template-columns:{{ nd.cols }};gap:10px 28px;align-items:center;">
+          <div style="display:flex;flex-direction:column;gap:10px;">
+            <span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:{{ nd.accent }};">{{ nd.role }}</span>
+            <sc-if value="{{ nd.hasImg }}" hint-placeholder-val="{{ false }}"><img src="{{ nd.img }}" alt="" style="height:42px;width:auto;max-width:100%;align-self:flex-start;display:block;"></sc-if>
+            <sc-if value="{{ nd.hasDisplay }}" hint-placeholder-val="{{ false }}"><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:24px;line-height:1.2;">{{ nd.display }}</span></sc-if>
+          </div>
+          <span style="font-size:14.5px;line-height:1.55;color:{{ nd.mut }};">{{ nd.text }}</span>
+        </div>
+      </div></sc-for>
+    </div>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_timeline }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:{{ b.pad }};overflow-x:auto;">
+  <div style="display:grid;grid-template-columns:{{ b.grid }};min-width:{{ b.minW }}px;">
+    <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="display:flex;flex-direction:column;gap:12px;padding-right:18px;">
+      <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:{{ b.yfs }}px;line-height:1;color:{{ it.yc }};white-space:nowrap;">{{ it.year }}</span>
+      <div style="position:relative;height:16px;margin-right:-18px;"><div style="position:absolute;left:0;right:{{ it.lineR }};top:7px;height:1.5px;background:#002654;"></div><div style="position:absolute;left:0;top:1px;width:14px;height:14px;border-radius:50%;background:{{ it.dot }};border:2px solid {{ it.dot }};box-sizing:border-box;"></div></div>
+      <sc-if value="{{ it.hasImg }}" hint-placeholder-val="{{ false }}"><div style="height:{{ b.imgH }}px;display:flex;align-items:center;"><img src="{{ it.img }}" alt="{{ it.title }}" style="max-height:100%;max-width:100%;object-fit:contain;display:block;"></div></sc-if>
+      <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:17px;line-height:1.3;">{{ it.title }}</span>
+      <sc-if value="{{ it.hasText }}" hint-placeholder-val="{{ false }}"><span style="font-size:13.5px;line-height:1.55;color:#4F4A47;">{{ it.text }}</span></sc-if>
+    </div></sc-for>
+  </div>
+</div></sc-if>
+
+<sc-if value="{{ b.is_quad }}" hint-placeholder-val="{{ false }}"><div style="display:flex;flex-direction:column;gap:14px;">
+  <div style="display:flex;align-items:center;gap:14px;"><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:22px;color:#002654;">{{ b.center }}</span><span style="flex:1;height:1px;background:rgba(17,17,17,0.18);"></span></div>
+  <div style="display:grid;grid-template-columns:{{ b.grid }};gap:12px;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="background:var(--card);padding:26px 24px 24px;display:flex;flex-direction:column;gap:14px;min-height:300px;box-sizing:border-box;border-top:4px solid {{ it.bar }};">
+    <div style="display:flex;align-items:center;justify-content:space-between;"><img src="{{ it.icon }}" alt="" style="width:52px;height:52px;object-fit:contain;display:block;"><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:30px;color:{{ it.bar }};line-height:1;">{{ it.num }}</span></div>
+    <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:22px;line-height:1.2;">{{ it.title }}</span>
+    <span style="font-size:14.5px;line-height:1.6;color:#4F4A47;"><sc-for list="{{ it.segs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for></span>
+    <span style="margin-top:auto;padding-top:12px;border-top:1px solid rgba(17,17,17,0.12);font-size:10.5px;font-weight:600;letter-spacing:0.08em;line-height:1.5;color:#CC0000;">{{ it.tags }}</span>
+  </div></sc-for>
+  </div>
+</div></sc-if>
+
+<sc-if value="{{ b.is_funnel }}" hint-placeholder-val="{{ false }}"><div style="display:flex;flex-direction:column;gap:8px;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="background:var(--card);display:grid;grid-template-columns:8px minmax(0, 1fr);">
+    <div style="background:{{ it.bg }};"></div>
+    <div style="padding:22px 26px;display:grid;grid-template-columns:{{ b.cols }};gap:8px 28px;align-items:baseline;">
+      <div style="display:flex;align-items:baseline;gap:12px;"><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:34px;line-height:1;color:{{ it.bg }};">{{ it.n }}</span><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:20px;line-height:1.2;">{{ it.name }}</span></div>
+      <span style="font-size:15px;line-height:1.55;color:#111111;">{{ it.text }}</span>
+      <span style="font-size:13px;line-height:1.5;font-style:italic;color:#4F4A47;">{{ it.lead }}</span>
+    </div>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_poles }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:{{ b.pad }};">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="padding:24px 0;border-bottom:{{ it.border }};display:flex;flex-direction:column;gap:12px;">
+    <div style="display:grid;grid-template-columns:minmax(0, 1fr) minmax(48px, 1fr) minmax(0, 1fr);gap:14px;align-items:center;">
+      <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:{{ b.fs }}px;line-height:1.25;text-align:right;color:#002654;">{{ it.l }}</span>
+      <div style="position:relative;height:16px;"><div style="position:absolute;left:0;right:0;top:7.5px;height:1px;background:#111111;"></div><div style="position:absolute;left:0;top:4px;width:8px;height:8px;background:#002654;"></div><div style="position:absolute;right:0;top:4px;width:8px;height:8px;background:#CC0000;"></div><div style="position:absolute;left:50%;top:1px;width:14px;height:14px;margin-left:-7px;background:#FFD100;transform:rotate(45deg);"></div></div>
+      <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:{{ b.fs }}px;line-height:1.25;color:#CC0000;">{{ it.r }}</span>
+    </div>
+    <p style="margin:0 auto;max-width:68ch;font-size:15px;line-height:1.6;text-align:center;color:#2A2624;">{{ it.text }}</p>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_orbit }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:28px;display:flex;flex-direction:column;gap:28px;">
+  <div style="position:relative;width:100%;max-width:520px;aspect-ratio:1 / 1;margin:0 auto;">
+    <div style="position:absolute;inset:9%;border-radius:50%;border:1.5px dashed rgba(0,38,84,0.4);"></div>
+    <div style="position:absolute;left:50%;top:50%;width:46%;aspect-ratio:1 / 1;transform:translate(-50%, -50%);border-radius:50%;background:#002654;color:#FFFFFF;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;padding:5%;box-sizing:border-box;">
+      <span style="font-size:10.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#FFD100;">{{ b.coreLabel }}</span>
+      <sc-for list="{{ b.core }}" as="cr" hint-placeholder-count="0"><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:{{ b.coreFs }}px;line-height:1.2;">{{ cr.title }}</span></sc-for>
+    </div>
+    <sc-for list="{{ b.sats }}" as="sa" hint-placeholder-count="0"><div style="position:absolute;left:{{ sa.x }};top:{{ sa.y }};transform:translate(-50%, -50%);width:{{ b.satW }};aspect-ratio:1 / 1;border-radius:50%;background:var(--page);border:1.5px solid #002654;display:flex;align-items:center;justify-content:center;text-align:center;padding:8px;box-sizing:border-box;font-size:{{ b.satFs }}px;font-weight:600;line-height:1.25;color:#002654;">{{ sa.title }}</div></sc-for>
+  </div>
+  <div style="display:grid;grid-template-columns:{{ b.lgrid }};gap:20px 32px;">
+    <div style="display:flex;flex-direction:column;"><span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#002654;padding-bottom:6px;">{{ b.coreLabel }}</span><sc-for list="{{ b.core }}" as="cr" hint-placeholder-count="0"><div style="padding:10px 0;border-top:1px solid rgba(17,17,17,0.12);"><div style="font-size:14px;font-weight:700;">{{ cr.title }}</div><div style="font-size:14px;line-height:1.55;color:#4F4A47;">{{ cr.text }}</div></div></sc-for></div>
+    <div style="display:flex;flex-direction:column;"><span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#002654;padding-bottom:6px;">{{ b.satLabel }}</span><sc-for list="{{ b.sats }}" as="sa" hint-placeholder-count="0"><div style="padding:10px 0;border-top:1px solid rgba(17,17,17,0.12);"><div style="font-size:14px;font-weight:700;">{{ sa.title }}</div><div style="font-size:14px;line-height:1.55;color:#4F4A47;">{{ sa.text }}</div></div></sc-for></div>
+  </div>
+</div></sc-if>
+
+<sc-if value="{{ b.is_callouts }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:{{ b.pad }};display:grid;grid-template-columns:{{ b.cols }};gap:28px;align-items:center;">
+  <div style="display:flex;flex-direction:column;gap:30px;order:{{ b.lOrder }};"><sc-for list="{{ b.left }}" as="it" hint-placeholder-count="0"><div role="button" tabindex="0" onClick="{{ it.onClick }}" style="display:flex;flex-direction:column;gap:8px;text-align:{{ it.ta }};padding:14px 16px;border-radius:16px;border:1px solid {{ it.bdc }};background:{{ it.bgc }};cursor:pointer;transition:background-color 200ms, border-color 200ms;" style-hover="border-color:#002654;">
+    <sc-if value="{{ it.hasIcon }}" hint-placeholder-val="{{ false }}"><img src="{{ it.icon }}" alt="" style="height:44px;width:auto;align-self:{{ it.self }};display:block;"></sc-if>
+    <div style="display:flex;align-items:center;gap:10px;flex-direction:{{ it.dir }};"><span style="font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#002654;">{{ it.title }}</span><span style="flex:1;min-width:20px;height:1px;background:#CC0000;display:{{ b.lineDisp }};"></span><span style="width:7px;height:7px;border-radius:50%;background:#CC0000;flex:0 0 auto;display:{{ b.lineDisp }};"></span></div>
+    <span style="font-size:14px;line-height:1.6;color:#4F4A47;"><sc-for list="{{ it.segs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for></span>
+  </div></sc-for></div>
+  <div style="order:{{ b.cOrder }};display:flex;flex-direction:column;align-items:center;gap:12px;"><img src="{{ b.cImg }}" alt="" style="width:100%;max-width:{{ b.imgMax }}px;max-height:{{ b.imgMax }}px;object-fit:contain;height:auto;display:block;"><span style="font-size:12px;color:#4F4A47;text-align:center;">{{ b.coHint }}</span></div>
+  <div style="display:flex;flex-direction:column;gap:30px;order:3;"><sc-for list="{{ b.right }}" as="it" hint-placeholder-count="0"><div role="button" tabindex="0" onClick="{{ it.onClick }}" style="display:flex;flex-direction:column;gap:8px;text-align:{{ it.ta }};padding:14px 16px;border-radius:16px;border:1px solid {{ it.bdc }};background:{{ it.bgc }};cursor:pointer;transition:background-color 200ms, border-color 200ms;" style-hover="border-color:#002654;">
+    <sc-if value="{{ it.hasIcon }}" hint-placeholder-val="{{ false }}"><img src="{{ it.icon }}" alt="" style="height:44px;width:auto;align-self:{{ it.self }};display:block;"></sc-if>
+    <div style="display:flex;align-items:center;gap:10px;flex-direction:{{ it.dir }};"><span style="font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#002654;">{{ it.title }}</span><span style="flex:1;min-width:20px;height:1px;background:#CC0000;display:{{ b.lineDisp }};"></span><span style="width:7px;height:7px;border-radius:50%;background:#CC0000;flex:0 0 auto;display:{{ b.lineDisp }};"></span></div>
+    <span style="font-size:14px;line-height:1.6;color:#4F4A47;"><sc-for list="{{ it.segs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for></span>
+  </div></sc-for></div>
+</div></sc-if>
+
+<sc-if value="{{ b.is_bars }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:22px 26px;display:flex;flex-direction:column;gap:12px;">
+  <sc-if value="{{ b.hasTitle }}" hint-placeholder-val="{{ false }}"><span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#002654;">{{ b.title }}</span></sc-if>
+  <sc-if value="{{ b.isStack }}" hint-placeholder-val="{{ false }}"><div style="display:flex;height:52px;"><sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="width:{{ it.pct }};background:{{ it.bg }};color:#FFFFFF;display:flex;align-items:center;justify-content:center;gap:8px;font-size:13px;font-weight:600;border-right:2px solid var(--card);box-sizing:border-box;padding:0 6px;text-align:center;line-height:1.2;"><span>{{ it.label }}</span><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:17px;font-weight:400;">{{ it.value }}</span></div></sc-for></div></sc-if>
+  <sc-if value="{{ b.isRows }}" hint-placeholder-val="{{ false }}"><sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="display:grid;grid-template-columns:{{ b.cols }};gap:8px 14px;align-items:center;"><span style="font-size:13px;font-weight:600;line-height:1.3;">{{ it.label }}</span><div style="height:20px;"><div style="height:100%;width:{{ it.pct }};background:#002654;"></div></div><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:18px;">{{ it.value }}</span></div></sc-for></sc-if>
+</div></sc-if>
+
+<sc-if value="{{ b.is_ratios }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:26px 28px;display:flex;flex-wrap:wrap;gap:24px 32px;align-items:flex-end;">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div style="display:flex;flex-direction:column;gap:8px;">
+    <div style="width:{{ it.w }}px;height:{{ it.h }}px;background:rgba(0,38,84,0.08);border:1.5px solid #002654;display:flex;align-items:center;justify-content:center;font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:19px;color:#002654;box-sizing:border-box;">{{ it.r }}</div>
+    <span style="font-size:13px;line-height:1.4;color:#4F4A47;max-width:{{ it.capW }}px;">{{ it.use }}</span>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_decision }}" hint-placeholder-val="{{ false }}"><div style="display:flex;flex-direction:column;align-items:center;">
+  <div style="background:#002654;color:#FFFFFF;padding:18px 28px;font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:21px;text-align:center;max-width:520px;">{{ b.q }}</div>
+  <div style="width:1.5px;height:24px;background:#002654;"></div>
+  <div style="width:{{ b.barW }};height:1.5px;background:#002654;"></div>
+  <div style="display:grid;grid-template-columns:{{ b.grid }};gap:16px;width:100%;">
+    <sc-for list="{{ b.branches }}" as="br" hint-placeholder-count="0"><div style="display:flex;flex-direction:column;align-items:center;">
+      <div style="width:1.5px;height:20px;background:#002654;"></div>
+      <span style="font-size:11.5px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#CC0000;padding:8px 0 10px;text-align:center;">{{ br.label }}</span>
+      <div style="background:var(--card);width:100%;flex:1;padding:22px;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center;">
+        <div style="display:flex;gap:10px;height:110px;align-items:center;justify-content:center;"><sc-for list="{{ br.imgs }}" as="im" hint-placeholder-count="0"><img src="{{ im.src }}" alt="" style="max-height:100%;max-width:100%;width:auto;object-fit:contain;display:block;"></sc-for></div>
+        <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:20px;">{{ br.title }}</span>
+        <span style="font-size:13.5px;line-height:1.55;color:#4F4A47;">{{ br.text }}</span>
+      </div>
+    </div></sc-for>
+  </div>
+</div></sc-if>
+
+<sc-if value="{{ b.is_gantt }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:{{ b.pad }};display:flex;flex-direction:column;gap:10px;">
+  <sc-if value="{{ b.hasTitle }}" hint-placeholder-val="{{ false }}"><span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#002654;padding-bottom:4px;">{{ b.title }}</span></sc-if>
+  <sc-for list="{{ b.rows }}" as="r" hint-placeholder-count="0"><div style="display:grid;grid-template-columns:{{ b.cols }};gap:4px 16px;align-items:center;">
+    <span style="font-size:13.5px;font-weight:600;line-height:1.35;">{{ r.label }}</span>
+    <div style="position:relative;height:30px;">
+      <sc-if value="{{ b.hasZero }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:{{ b.zeroX }};top:-6px;bottom:-6px;width:1px;background:rgba(17,17,17,0.45);"></div></sc-if>
+      <sc-if value="{{ r.isBar }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:{{ r.x }};width:{{ r.w }};top:3px;bottom:3px;background:{{ r.bg }};color:{{ r.fg }};display:flex;align-items:center;padding:0 8px;box-sizing:border-box;font-size:12px;font-weight:600;white-space:nowrap;overflow:hidden;">{{ r.note }}</div></sc-if>
+      <sc-if value="{{ r.isPoint }}" hint-placeholder-val="{{ false }}"><div style="position:absolute;left:{{ r.x }};top:8px;width:14px;height:14px;margin-left:-7px;background:{{ r.bg }};transform:rotate(45deg);"></div></sc-if>
+      <sc-if value="{{ r.hasOut }}" hint-placeholder-val="{{ false }}"><span style="position:absolute;left:{{ r.outX }};right:{{ r.outR }};top:7px;font-size:12px;font-weight:600;color:#111111;white-space:nowrap;">{{ r.outNote }}</span></sc-if>
+    </div>
+  </div></sc-for>
+  <div style="display:grid;grid-template-columns:{{ b.cols }};gap:4px 16px;"><span></span><div style="position:relative;height:24px;border-top:1px solid rgba(17,17,17,0.4);"><sc-for list="{{ b.ticks }}" as="tk" hint-placeholder-count="0"><span style="position:absolute;left:{{ tk.x }};top:5px;transform:translateX({{ tk.tx }});font-size:11.5px;color:#4F4A47;white-space:nowrap;font-variant-numeric:tabular-nums;">{{ tk.label }}</span></sc-for></div></div>
+</div></sc-if>
+
+<sc-if value="{{ b.is_donuts }}" hint-placeholder-val="{{ false }}"><div style="display:grid;grid-template-columns:{{ b.grid }};gap:16px;">
+  <sc-for list="{{ b.charts }}" as="ch" hint-placeholder-count="0"><div style="background:var(--card);padding:26px 28px;display:flex;flex-direction:column;gap:20px;">
+    <span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#002654;">{{ ch.title }}</span>
+    <div style="display:flex;flex-wrap:wrap;gap:28px;align-items:center;">
+      <div style="position:relative;width:{{ b.size }}px;height:{{ b.size }}px;border-radius:50%;background:{{ ch.grad }};box-shadow:inset 0 0 0 1px rgba(17,17,17,0.18);flex:0 0 auto;"><div style="position:absolute;inset:24%;border-radius:50%;background:var(--sec, var(--page));box-shadow:0 0 0 1px rgba(17,17,17,0.18);display:flex;align-items:center;justify-content:center;text-align:center;font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:15px;line-height:1.2;padding:6px;">{{ ch.center }}</div></div>
+      <div style="display:flex;flex-direction:column;gap:10px;min-width:200px;flex:1;"><sc-for list="{{ ch.items }}" as="it" hint-placeholder-count="0"><div style="display:grid;grid-template-columns:14px 50px minmax(0, 1fr);gap:10px;align-items:center;"><span style="width:14px;height:14px;background:{{ it.bg }};border:1px solid rgba(17,17,17,0.25);"></span><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:19px;">{{ it.pct }}%</span><span style="font-size:13.5px;line-height:1.4;color:#4F4A47;">{{ it.name }}</span></div></sc-for></div>
+    </div>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_matrix }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:6px 24px 14px;overflow-x:auto;">
+  <div style="min-width:520px;">
+    <div style="display:grid;grid-template-columns:{{ b.cols }};gap:0 12px;padding:14px 0 10px;border-bottom:1.5px solid #111111;"><span></span><sc-for list="{{ b.head }}" as="hd" hint-placeholder-count="0"><span style="font-size:12px;font-weight:700;letter-spacing:0.08em;color:#002654;text-align:center;">{{ hd.text }}</span></sc-for></div>
+    <sc-for list="{{ b.rows }}" as="r" hint-placeholder-count="0"><div style="display:grid;grid-template-columns:{{ b.cols }};gap:0 12px;padding:12px 0;border-bottom:{{ r.border }};align-items:center;"><span style="font-size:14px;font-weight:600;line-height:1.35;">{{ r.label }}</span><sc-for list="{{ r.cells }}" as="ce" hint-placeholder-count="0"><div style="display:flex;justify-content:center;"><span style="min-width:88px;padding:6px 8px;text-align:center;font-size:12px;font-weight:600;background:{{ ce.bg }};color:{{ ce.fg }};border:1.5px solid {{ ce.bd }};visibility:{{ ce.vis }};box-sizing:border-box;">{{ ce.text }}</span></div></sc-for></div></sc-for>
+  </div>
+</div></sc-if>
+
+<sc-if value="{{ b.is_journey }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:{{ b.pad }};">
+  <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><div>
+    <sc-if value="{{ it.isH }}" hint-placeholder-val="{{ false }}"><div style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#CC0000;padding:4px 0 14px 58px;">{{ it.h }}</div></sc-if>
+    <sc-if value="{{ it.isRow }}" hint-placeholder-val="{{ false }}"><div style="display:grid;grid-template-columns:42px minmax(0, 1fr);gap:16px;">
+      <div style="display:flex;flex-direction:column;align-items:center;"><span style="width:{{ it.dot }}px;height:{{ it.dot }}px;margin-top:{{ it.dotM }}px;border-radius:50%;background:{{ it.dotBg }};color:#FFFFFF;border:1.5px solid #002654;display:flex;align-items:center;justify-content:center;font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:14px;flex:0 0 auto;box-sizing:border-box;">{{ it.n }}</span><span style="flex:1;width:1.5px;background:{{ it.lineBg }};min-height:14px;"></span></div>
+      <div style="padding:4px 0 22px;display:grid;grid-template-columns:{{ b.cols }};gap:4px 24px;"><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:18px;line-height:1.3;">{{ it.title }}</span><span style="font-size:14.5px;line-height:1.6;color:#2A2624;"><sc-for list="{{ it.segs }}" as="g" hint-placeholder-count="0"><span style="color:{{ g.color }};font-weight:{{ g.weight }};">{{ g.text }}</span></sc-for></span></div>
+    </div></sc-if>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_elevation }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:28px 28px 40px;display:flex;gap:24px;align-items:flex-end;justify-content:center;flex-wrap:wrap;">
+  <div style="position:relative;width:{{ b.W }}px;height:{{ b.H }}px;border-bottom:2px solid #111111;">
+    <div style="position:absolute;left:8px;bottom:0;width:{{ b.doorW }}px;height:{{ b.doorH }}px;border:1.5px solid #8A837E;border-bottom:0;box-sizing:border-box;"></div>
+    <div style="position:absolute;left:{{ b.plateL }}px;bottom:{{ b.plateB }}px;width:{{ b.plateW }}px;height:{{ b.plateH }}px;background:#002654;"></div>
+    <div style="position:absolute;left:{{ b.plateL }}px;bottom:{{ b.pocketB }}px;width:{{ b.plateW }}px;height:6px;background:#CC0000;"></div>
+    <div style="position:absolute;left:{{ b.dimL }}px;bottom:0;height:{{ b.dimH }}px;width:0;border-left:1.5px dashed #CC0000;"></div>
+    <span style="position:absolute;left:{{ b.labL }}px;bottom:{{ b.labB }}px;font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:18px;color:#CC0000;white-space:nowrap;">{{ b.hLabel }}</span>
+    <span style="position:absolute;left:{{ b.plateL }}px;bottom:{{ b.sizeB }}px;font-size:12px;font-weight:600;color:#002654;white-space:nowrap;">{{ b.sizeLabel }}</span>
+    <span style="position:absolute;left:0;bottom:-24px;font-size:11.5px;color:#4F4A47;">{{ b.floor }}</span>
+  </div>
+  <p style="font-size:13.5px;line-height:1.5;color:#4F4A47;max-width:200px;margin:0;">{{ b.label }}</p>
+</div></sc-if>
+
+
+<sc-if value="{{ b.is_icons }}" hint-placeholder-val="{{ false }}"><div style="background:var(--card);padding:26px 28px;display:flex;flex-direction:column;gap:16px;">
+  <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;"><span style="font-size:13px;color:#4F4A47;">{{ b.hint }}</span><a href="https://lucide.dev/icons/" target="_blank" rel="noopener" style="font-size:13px;font-weight:600;color:#002654;text-decoration:underline;">{{ b.libLink }} ↗</a></div>
+  <div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;"><input type="search" value="{{ b.icQ }}" onChange="{{ b.onIcQ }}" placeholder="{{ b.icPh }}" aria-label="{{ b.icPh }}" style="flex:1 1 240px;min-height:44px;border-radius:999px;border:1px solid rgba(17,17,17,0.22);padding:0 18px;font-size:14px;background:var(--page);color:#111111;font-family:Arial, Helvetica, sans-serif;"><a href="{{ b.icSearchUrl }}" target="_blank" rel="noopener" style="min-height:44px;display:inline-flex;align-items:center;padding:0 18px;border-radius:999px;border:1px solid #002654;color:#002654;font-size:13.5px;font-weight:600;text-decoration:none;" style-hover="background:#002654;color:#FFFFFF;">{{ b.icSearchLbl }} ↗</a></div>
+  <sc-if value="{{ b.hasFound }}" hint-placeholder-val="{{ false }}"><button onClick="{{ b.found.onClick }}" style="display:flex;align-items:center;gap:14px;border-radius:16px;padding:14px 18px;background:{{ b.found.bg }};border:1px solid #002654;cursor:copy;text-align:left;"><img src="{{ b.found.src }}" alt="" style="width:36px;height:36px;display:block;"><span style="font-size:14px;font-weight:600;color:#002654;">{{ b.found.label }}</span><span style="font-size:12px;color:#4F4A47;">{{ b.found.note }}</span></button></sc-if>
+  <sc-if value="{{ b.noIcon }}" hint-placeholder-val="{{ false }}"><span style="font-size:13px;color:#4F4A47;">{{ b.noIconMsg }}</span></sc-if>
+  <div style="display:grid;grid-template-columns:{{ b.grid }};gap:8px;">
+    <sc-for list="{{ b.items }}" as="it" hint-placeholder-count="0"><button onClick="{{ it.onClick }}" title="{{ it.name }}" style="display:flex;flex-direction:column;align-items:center;gap:10px;border-radius:16px;padding:18px 6px 12px;background:{{ it.bg }};border:1px solid rgba(17,17,17,0.1);cursor:copy;min-height:96px;" style-hover="border-color:#002654;">
+      <img src="{{ it.src }}" alt="" style="width:28px;height:28px;display:block;">
+      <span style="font-size:11px;line-height:1.3;color:{{ it.fg }};font-weight:{{ it.w }};text-align:center;overflow-wrap:anywhere;">{{ it.label }}</span>
+    </button></sc-for>
+  </div>
+</div></sc-if>
+
+<sc-if value="{{ b.is_curves }}" hint-placeholder-val="{{ false }}"><div style="display:flex;flex-direction:column;gap:18px;">
+  <div style="display:flex;flex-direction:column;gap:8px;"><span style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#4F4A47;">{{ b.L.presets }}</span>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;"><sc-for list="{{ b.presets }}" as="pr" hint-placeholder-count="0"><button onClick="{{ pr.onClick }}" aria-pressed="{{ pr.sel }}" style="border-radius:0;display:flex;flex-direction:column;gap:6px;align-items:center;background:none;border:0;padding:0;cursor:pointer;">
+      <span style="display:block;width:96px;height:72px;position:relative;overflow:hidden;background:#ECE7E2;outline:2px solid {{ pr.ring }};outline-offset:2px;"><span style="position:absolute;left:0;right:0;top:{{ pr.t }};bottom:{{ pr.bt }};height:56%;background:#2A2A2A;clip-path:{{ pr.mask }};"></span></span>
+      <span style="font-size:11.5px;font-weight:600;color:{{ pr.lc }};">{{ pr.n }}</span>
+    </button></sc-for></div>
+  </div>
+  <div style="background:var(--card);padding:18px 20px;display:grid;grid-template-columns:{{ b.ctrlGrid }};gap:16px 24px;">
+    <div style="display:flex;flex-direction:column;gap:8px;"><span style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#4F4A47;">{{ b.L.shape }}</span><div style="display:flex;flex-wrap:wrap;gap:6px;"><sc-for list="{{ b.shapeT }}" as="x" hint-placeholder-count="0"><button onClick="{{ x.onClick }}" style="min-height:40px;padding:0 14px;border:1px solid {{ x.border }};background:{{ x.bg }};color:{{ x.fg }};font-size:13px;font-weight:600;cursor:pointer;">{{ x.label }}</button></sc-for></div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;"><span style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#4F4A47;">{{ b.L.flip }}</span><div style="display:flex;flex-wrap:wrap;gap:6px;"><sc-for list="{{ b.flipT }}" as="x" hint-placeholder-count="0"><button onClick="{{ x.onClick }}" aria-pressed="{{ x.sel }}" style="min-height:40px;padding:0 14px;border:1px solid {{ x.border }};background:{{ x.bg }};color:{{ x.fg }};font-size:13px;font-weight:600;cursor:pointer;opacity:{{ x.op }};">{{ x.label }}</button></sc-for></div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;"><span style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#4F4A47;">{{ b.L.height }}</span><div style="display:flex;gap:6px;"><sc-for list="{{ b.sizeT }}" as="x" hint-placeholder-count="0"><button onClick="{{ x.onClick }}" style="min-height:40px;padding:0 14px;border:1px solid {{ x.border }};background:{{ x.bg }};color:{{ x.fg }};font-size:13px;font-weight:600;cursor:pointer;min-width:44px;">{{ x.label }}</button></sc-for></div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;"><span style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#4F4A47;">{{ b.L.use }}</span><div style="display:flex;flex-wrap:wrap;gap:6px;"><sc-for list="{{ b.modeT }}" as="x" hint-placeholder-count="0"><button onClick="{{ x.onClick }}" style="min-height:40px;padding:0 14px;border:1px solid {{ x.border }};background:{{ x.bg }};color:{{ x.fg }};font-size:13px;font-weight:600;cursor:pointer;">{{ x.label }}</button></sc-for></div></div>
+    <div style="display:flex;flex-direction:column;gap:8px;grid-column:1 / -1;"><span style="font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#4F4A47;">{{ b.L.colour }} · {{ b.colorName }}</span><div style="display:flex;flex-wrap:wrap;gap:6px;"><sc-for list="{{ b.colorT }}" as="cl" hint-placeholder-count="0"><button onClick="{{ cl.onClick }}" title="{{ cl.name }}" aria-label="{{ cl.name }}" style="width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:transparent;border:1.5px solid {{ cl.ring }};cursor:pointer;padding:0;"><span style="width:26px;height:26px;border-radius:50%;background:{{ cl.v }};border:1px solid rgba(17,17,17,0.2);"></span></button></sc-for></div></div>
+  </div>
+  <div style="position:relative;height:{{ b.stageH }}px;overflow:hidden;background:{{ b.stageBg }};border:1px solid rgba(17,17,17,0.1);">
+    <div style="position:absolute;left:0;right:0;top:{{ b.blkT }};bottom:{{ b.blkB }};height:52%;background-color:{{ b.fill }};background-image:{{ b.photo }};background-size:cover;background-position:center;clip-path:{{ b.mask }};"></div>
+    <div style="position:absolute;left:6%;right:6%;top:{{ b.txtT }};bottom:{{ b.txtB }};height:40%;display:flex;flex-direction:column;justify-content:center;gap:10px;max-width:560px;">
+      <span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:{{ b.kc }};">{{ b.caption }}</span>
+      <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:{{ b.tfs }}px;line-height:1.15;color:{{ b.tc }};">French Excellence. Open to the World.</span>
+    </div>
+  </div>
+</div></sc-if>
+
+<sc-if value="{{ b.is_video }}" hint-placeholder-val="{{ false }}"><div style="background:#002654;"><video src="{{ b.src }}" controls="" preload="metadata" playsinline="" style="width:100%;max-height:{{ b.h }}px;display:block;background:#002654;"></video></div></sc-if>
+
+<sc-if value="{{ b.is_downloads }}" hint-placeholder-val="{{ false }}"><div style="display:flex;flex-direction:column;gap:40px;">
+  <sc-for list="{{ b.groups }}" as="gr" hint-placeholder-count="0"><div style="display:flex;flex-direction:column;gap:16px;">
+    <h3 style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-weight:400;font-size:24px;margin:0;padding-bottom:10px;border-bottom:1px solid rgba(17,17,17,0.25);">{{ gr.title }}</h3>
+    <div style="display:grid;grid-template-columns:{{ b.grid }};gap:16px;">
+      <sc-for list="{{ gr.items }}" as="it" hint-placeholder-count="0"><div style="display:flex;flex-direction:column;gap:14px;border:1px solid rgba(17,17,17,0.14);border-radius:20px;padding:16px;min-width:0;">
+        <div style="height:170px;display:flex;align-items:center;justify-content:center;background:{{ it.bg }};border-radius:12px;padding:14px;box-sizing:border-box;overflow:hidden;"><sc-if value="{{ it.isVideo }}" hint-placeholder-val="{{ false }}"><span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:22px;color:#FFFFFF;">MP4</span></sc-if><sc-if value="{{ it.isImg }}" hint-placeholder-val="{{ false }}"><img src="{{ it.img }}" alt="{{ it.name }}" style="max-width:100%;max-height:100%;object-fit:contain;display:block;"></sc-if></div>
+        <div style="font-size:15px;font-weight:700;line-height:1.3;">{{ it.name }}</div>
+        <div role="group" style="display:flex;flex-wrap:wrap;gap:6px;"><sc-for list="{{ it.chips }}" as="ch" hint-placeholder-count="0"><button onClick="{{ ch.onClick }}" aria-pressed="{{ ch.sel }}" style="min-height:36px;padding:0 12px;border:1px solid {{ ch.border }};background:{{ ch.bg }};color:{{ ch.fg }};font-size:12.5px;font-weight:600;cursor:pointer;">{{ ch.label }}</button></sc-for></div>
+        <sc-if value="{{ it.canFmt }}" hint-placeholder-val="{{ false }}"><div role="group" aria-label="Format" style="display:flex;gap:6px;"><sc-for list="{{ it.fmts }}" as="fm" hint-placeholder-count="0"><button onClick="{{ fm.onClick }}" aria-pressed="{{ fm.sel }}" style="min-height:36px;min-width:64px;padding:0 14px;border:1px solid {{ fm.border }};background:{{ fm.bg }};color:{{ fm.fg }};font-size:12.5px;font-weight:700;cursor:pointer;">{{ fm.label }}</button></sc-for></div></sc-if>
+        <button onClick="{{ it.onDownload }}" style="margin-top:auto;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 20px;background:#002654;color:#FFFFFF;border:0;font-size:13.5px;font-weight:600;cursor:pointer;" style-hover="background:#CC0000;">↓ {{ b.lbl.download }} · {{ it.ext }}</button>
+      </div></sc-for>
+    </div>
+  </div></sc-for>
+</div></sc-if>
+
+<sc-if value="{{ b.is_titlecard }}" hint-placeholder-val="{{ false }}"><div style="display:flex;flex-direction:column;gap:12px;margin-top:8px;">
+  <span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#002654;">{{ b.label }}</span>
+  <div style="background:#002654;aspect-ratio:16 / 9;max-width:760px;width:100%;display:flex;align-items:center;justify-content:center;padding:32px;box-sizing:border-box;">
+    <span ref="{{ b.cardRef }}" style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;color:#FFFFFF;font-size:{{ b.fs }}px;text-align:center;line-height:1.2;">{{ b.text }}</span>
+  </div>
+  <button onClick="{{ b.onPlay }}" style="align-self:flex-start;min-height:44px;padding:0 18px;background:#002654;color:#FFFFFF;border:1px solid #002654;font-size:13.5px;font-weight:600;cursor:pointer;" style-active="transform:translateY(1px);">{{ b.btn }}</button>
+</div></sc-if>
+
+                      </div>
+                    </sc-for>
+                  </div>
+                </sc-for>
+              </div>
+            </sc-for>
+          </div>
+        </section>
+        <div aria-hidden="true" style="{{ s.divStyle }}"><div style="{{ s.divIn }}"></div></div>
+      </sc-for>
+
+      <nav aria-label="Pagination" style="display:flex;justify-content:space-between;gap:16px;padding:{{ pnPad }};flex-wrap:wrap;">
+        <sc-if value="{{ hasPrev }}" hint-placeholder-val="{{ false }}">
+          <button onClick="{{ prev.onClick }}" style="flex:1 1 280px;max-width:560px;text-align:left;background:transparent;border:0;padding:22px 0;display:flex;flex-direction:column;gap:6px;cursor:pointer;color:#111111;border-radius:28px;" style-hover="border-color:#002654;">
+            <span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#CC0000;">← {{ ui.prev }}</span>
+            <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:21px;">{{ prev.label }}</span>
+          </button>
+        </sc-if>
+        <sc-if value="{{ hasNext }}" hint-placeholder-val="{{ true }}">
+          <button onClick="{{ next.onClick }}" style="flex:1 1 280px;max-width:560px;margin-left:auto;text-align:right;background:transparent;border:0;padding:22px 0;display:flex;flex-direction:column;align-items:flex-end;gap:6px;cursor:pointer;color:#002654;border-radius:28px;" style-active="transform:translateY(1px);">
+            <span style="font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#CC0000;">{{ ui.next }} →</span>
+            <span style="font-family:Baskerville, 'Libre Baskerville', Georgia, serif;font-size:21px;">{{ next.label }}</span>
+          </button>
+        </sc-if>
+      </nav>
+
+      <footer style="padding:{{ footPad }};border-top:1px solid rgba(17,17,17,0.12);display:flex;flex-wrap:wrap;gap:24px 48px;justify-content:space-between;font-size:12px;line-height:1.65;color:#4F4A47;">
+        <div style="display:flex;flex-direction:column;gap:10px;max-width:56ch;">
+          <img src="assets/logo/land.png" alt="FSKL" style="height:30px;width:auto;align-self:flex-start;">
+          <p style="margin:0;">{{ ui.confidential }}</p>
+        </div>
+        <div style="display:flex;gap:32px;flex-wrap:wrap;">
+          <div><strong style="color:#111111;">FSKL · Henri Fauconnier</strong><br>34, Jalan Dutamas Raya<br>51200 Kuala Lumpur, Malaysia<br>(+60) 3 6250 4415</div>
+          <div><strong style="color:#111111;">HEVEA</strong><br>No. 5, Jalan Dutamas Dahlia 5<br>51200 Kuala Lumpur, Malaysia<br>(+60) 16 261 0802</div>
+        </div>
+        <p style="flex:1 1 100%;margin:0;padding-top:18px;border-top:1px solid rgba(17,17,17,0.12);font-size:7pt;font-variant:small-caps;letter-spacing:0.04em;line-height:1.5;color:#A8A39F;">{{ ui.designedBy }} François Hurtaud · <a style="color:inherit;" href="mailto:hello@francoishurtaud.com">hello@francoishurtaud.com</a> · <a style="color:inherit;" href="https://francoishurtaud.com" target="_blank" rel="noopener">francoishurtaud.com</a> · <a style="color:inherit;" href="https://www.instagram.com/francoishurtaud/" target="_blank" rel="noopener">@francoishurtaud</a></p>
+      </footer>
+    </sc-if>
+  </main>
+</div>
+
+<sc-if value="{{ hasLightbox }}" hint-placeholder-val="{{ false }}">
+  <div onClick="{{ closeLightbox }}" role="dialog" aria-modal="true" style="position:fixed;inset:0;z-index:80;background:rgba(6,14,28,0.93);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:56px 24px 32px;box-sizing:border-box;cursor:zoom-out;">
+    <img src="{{ lbSrc }}" alt="{{ lbCap }}" style="max-width:100%;max-height:84vh;object-fit:contain;display:block;background:var(--card);">
+    <sc-if value="{{ hasLbCap }}" hint-placeholder-val="{{ false }}"><span style="color:#FFFFFF;font-style:italic;font-size:14px;text-align:center;">{{ lbCap }}</span></sc-if>
+    <button onClick="{{ closeLightbox }}" style="position:absolute;top:14px;right:14px;min-height:44px;padding:0 16px;background:transparent;color:#FFFFFF;border:1px solid rgba(255,255,255,0.5);font-size:13.5px;font-weight:600;cursor:pointer;">{{ ui.close }}</button>
+  </div>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;pageBackground&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;vellum&quot;,&quot;white&quot;],&quot;default&quot;:&quot;vellum&quot;,&quot;tsType&quot;:&quot;'vellum' | 'white'&quot;,&quot;section&quot;:&quot;Page&quot;}}">
+class Component extends DCLogic {
+  SERIF = "Baskerville, 'Libre Baskerville', Georgia, serif";
+  SANS = "Arial, Helvetica, sans-serif";
+  E = 'cubic-bezier(0.22, 1, 0.36, 1)';
+  state = { dl:{}, dlf:{}, cvS:1, cvV:0, cvH:0, cvZ:1, cvMode:0, cvC:0, coSel:'', cmpIdx:0, cmpPos:50, icQ:'', icFound:null, cvP:4, ready:false, lang:'en', view:'home', q:'', searchOpen:false, navOpen:false, w:1280, lightbox:null, copied:'', modeIdx:0, typeLevel:1, pageBg:'vellum', checker:'', qa:{}, reviewer:'', activeSec:'', breathing:false };
+  shieldRef = React.createRef(); wordRef = React.createRef(); cardRef = React.createRef();
+  cache = {}; idx = {};
+
+  componentDidMount(){
+    let lang='en', view='home', qa={}, reviewer='', pageBg='vellum';
+    try{
+      const n=(navigator.language||'').toLowerCase();
+      lang=localStorage.getItem('fskl-lang')||(n.indexOf('fr')===0?'fr':'en');
+      view=localStorage.getItem('fskl-view')||'home'; pageBg=localStorage.getItem('fskl-bg')||'vellum';
+      const s=JSON.parse(localStorage.getItem('fskl-qa')||'{}'); qa=s.items||{}; reviewer=s.reviewer||'';
+    }catch(e){}
+    document.documentElement.lang=lang; document.body.style.background=pageBg==='white'?'#FFFFFF':'#F9F1EC';
+    this.setState({lang, view, qa, reviewer, pageBg, w:window.innerWidth});
+    this.onResize=()=>this.setState({w:window.innerWidth});
+    window.addEventListener('resize',this.onResize);
+    this.onKey=(e)=>{ if(e.key==='Escape') this.setState({lightbox:null,searchOpen:false,navOpen:false}); };
+    window.addEventListener('keydown',this.onKey);
+    this.onDown=(e)=>{ if(this.state.searchOpen && !(e.target.closest&&e.target.closest('[data-search]'))) this.setState({searchOpen:false}); };
+    document.addEventListener('mousedown',this.onDown);
+    const hm=(location.hash||'').replace(/^#/,'').split('/');
+    const check=()=>{ const P=window.FSKL_PARTS; if(P&&P.a&&P.b&&P.c&&window.FSKL_UI&&window.FSKL_PATCH){ this.raw=this.applyPatch([].concat(P.a,P.b,P.c),window.FSKL_PATCH); this.setState({ready:true}); if(hm[0]&&(hm[0]==='home'||this.raw.find(p=>p.id===hm[0]))) this.go(hm[0],hm[1]||undefined); } else this.timer=setTimeout(check,40); };
+    check();
+  }
+  componentWillUnmount(){
+    clearTimeout(this.timer); clearTimeout(this.ct);
+    window.removeEventListener('resize',this.onResize); window.removeEventListener('keydown',this.onKey); document.removeEventListener('mousedown',this.onDown);
+    if(this.io) this.io.disconnect();
+  }
+  componentDidUpdate(pp,ps){
+    const s=this.state;
+    if(ps.view!==s.view||ps.lang!==s.lang||ps.ready!==s.ready){ this.observe(); if(ps.view!==s.view&&s.breathing) this.setState({breathing:false}); }
+  }
+  observe(){
+    if(this.io) this.io.disconnect();
+    if(!('IntersectionObserver' in window)) return;
+    this.io=new IntersectionObserver((ents)=>{ const vis=ents.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top); if(vis.length){ const id=vis[0].target.getAttribute('data-sec'); if(id!==this.state.activeSec) this.setState({activeSec:id}); } },{rootMargin:'-80px 0px -70% 0px'});
+    requestAnimationFrame(()=>document.querySelectorAll('[data-sec]').forEach(el=>this.io.observe(el)));
+  }
+
+  tr(v,l){
+    if(Array.isArray(v)) return v.map(x=>this.tr(x,l));
+    if(v&&typeof v==='object'){ const k=Object.keys(v); if(k.length===2&&('en' in v)&&('fr' in v)) return this.tr(v[l],l); const o={}; k.forEach(key=>{ o[key]=this.tr(v[key],l); }); return o; }
+    return v;
+  }
+  loadIcons(names){ if(this.iconsLoading) return; this.iconsLoading=true; this.iconSrc={}; const LI=window.FSKL_ICONS||{}; names=names.filter(n=>{ if(LI[n]){ this.iconSrc[n]='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(LI[n].replace(/currentColor/g,'#002654')); return false; } return true; }); Promise.all(names.map(n=>fetch('https://unpkg.com/lucide-static@0.460.0/icons/'+n+'.svg').then(r=>r.text()).then(t=>{ this.iconSrc[n]='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(t.replace(/currentColor/g,'#002654')); }).catch(()=>{}))).then(()=>this.forceUpdate()); }
+  applyPatch(raw,P){ if(!P) return raw; raw=raw.concat(P.__parts||[]); const AD=P.__add||{}; const ins=(secs,adds)=>{ const out=secs.slice(); (adds||[]).forEach(a=>{ const i=a.after?out.findIndex(x=>x.id===a.after):-1; if(i>=0) out.splice(i+1,0,a); else out.push(a); }); return out; }; return raw.map(p=>Object.assign({},p,{sections:ins(p.sections,AD[p.id]).map(s=>{ const q=P[s.id]; if(!q) return s; let bl=q.blocks?q.blocks.slice():(s.blocks||[]).slice(); if(q.swap){ const sw=(b)=>{ if(b&&Array.isArray(b.cols)) return Object.assign({},b,{cols:b.cols.map(cl=>cl.map(sw))}); return (b&&q.swap[b.t])?q.swap[b.t]:b; }; bl=bl.map(sw); } if(q.prepend) bl=q.prepend.concat(bl); if(q.append) bl=bl.concat(q.append); return Object.assign({},s,{blocks:bl}); })})); }
+  parts(l){ if(!this.cache[l]) this.cache[l]=this.tr(this.raw,l); return this.cache[l]; }
+  strip(t){ return String(t||'').replace(/\*\*|__/g,''); }
+  segs(t){
+    if(t==null||t==='') return [];
+    t=String(t); const out=[]; const re=/(\*\*[^*]+\*\*|__[^_]+__)/g; let last=0, m;
+    while((m=re.exec(t))){ if(m.index>last) out.push({text:t.slice(last,m.index),color:'inherit',weight:'inherit'}); const s=m[0]; out.push(s[0]==='*'?{text:s.slice(2,-2),color:'#CC0000',weight:'inherit'}:{text:s.slice(2,-2),color:'inherit',weight:'700'}); last=m.index+s.length; }
+    if(last<t.length) out.push({text:t.slice(last),color:'inherit',weight:'inherit'});
+    return out;
+  }
+  fold(s){ let r=''; for(const ch of String(s)){ const f=ch.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(); r+=(f.length===1?f:(ch.toLowerCase()[0]||' ')); } return r; }
+  collect(o,out){
+    if(typeof o==='string'){ if(!/^(assets\/|#[0-9A-Fa-f]{3,6}$)/.test(o)) out.push(this.strip(o)); }
+    else if(Array.isArray(o)) o.forEach(x=>this.collect(x,out));
+    else if(o&&typeof o==='object') Object.keys(o).forEach(k=>{ if(['src','img','icon','photo','flag','bg','fg','chip','stack','s','font','t','id','imgs','link','sansStack','w','style'].indexOf(k)<0) this.collect(o[k],out); });
+  }
+  index(l){
+    if(this.idx[l]) return this.idx[l];
+    const list=[];
+    this.parts(l).forEach(p=>p.sections.forEach(s=>{ const out=[]; this.collect([s.kicker,s.title,s.sub,s.blocks],out); const blob=out.filter(Boolean).join(' · ').replace(/\s+/g,' '); list.push({p,s,blob,f:this.fold(blob)}); }));
+    this.idx[l]=list; return list;
+  }
+
+  go=(view,sec)=>{ try{localStorage.setItem('fskl-view',view); history.replaceState(null,'','#'+view+(sec?'/'+sec:''));}catch(e){}
+    const same=view===this.state.view;
+    this.setState({view,navOpen:false,searchOpen:false,q:'',activeSec:sec||''});
+    clearTimeout(this.st); let tries=0;
+    const doScroll=()=>{ if(!sec){ window.scrollTo(0,0); return; }
+      const el=document.getElementById('sec-'+sec);
+      if(!el){ if(tries++<40) this.st=setTimeout(doScroll,50); return; }
+      const y=el.getBoundingClientRect().top+window.pageYOffset-76;
+      window.scrollTo({top:y,behavior:same?'smooth':'auto'});
+      if(!same) this.st=setTimeout(()=>{ const y2=el.getBoundingClientRect().top+window.pageYOffset-76; if(Math.abs(y2-window.pageYOffset)>4) window.scrollTo(0,y2); },400);
+    };
+    this.st=setTimeout(doScroll,same?0:60); };
+  bgMode(){ const v=(this.props&&this.props.pageBackground)||'vellum'; if(typeof document!=='undefined') document.body.style.background=v==='white'?'#FFFFFF':'#F9F1EC'; return v; }
+  setBg=(v)=>{ try{localStorage.setItem('fskl-bg',v);}catch(e){} document.body.style.background=v==='white'?'#FFFFFF':'#F9F1EC'; this.setState({pageBg:v}); };
+  setLang=(l)=>{ try{localStorage.setItem('fskl-lang',l);}catch(e){} document.documentElement.lang=l; this.setState({lang:l}); };
+  copy=(text)=>{
+    const done=()=>{ this.setState({copied:text}); clearTimeout(this.ct); this.ct=setTimeout(()=>this.setState({copied:''}),1500); };
+    const fb=()=>{ const ta=document.createElement('textarea'); ta.value=text; ta.style.position='fixed'; ta.style.opacity='0'; document.body.appendChild(ta); ta.select(); try{document.execCommand('copy');}catch(e){} ta.remove(); done(); };
+    try{ if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(done,fb); return; } }catch(e){}
+    fb();
+  };
+  saveQa(qa,reviewer){ try{localStorage.setItem('fskl-qa',JSON.stringify({items:qa,reviewer}));}catch(e){} }
+  cancelAnims(el){ if(el&&el.getAnimations) el.getAnimations().forEach(a=>a.cancel()); }
+  playBuild=()=>{ const s=this.shieldRef.current, w=this.wordRef.current; if(!s||!w||!s.animate) return; this.cancelAnims(s); this.cancelAnims(w); if(this.state.breathing) this.setState({breathing:false});
+    w.animate([{clipPath:'inset(0 100% 0 38%)'},{clipPath:'inset(0 0% 0 38%)'}],{duration:1000,easing:this.E,fill:'both'});
+    s.animate([{transform:'scale(0)',opacity:0},{transform:'scale(1)',opacity:1}],{duration:1000,delay:600,easing:this.E,fill:'both'}); };
+  playExit=()=>{ const s=this.shieldRef.current, w=this.wordRef.current; if(!s||!w||!s.animate) return; this.cancelAnims(s); this.cancelAnims(w); if(this.state.breathing) this.setState({breathing:false});
+    s.animate([{transform:'scale(1)',opacity:1},{transform:'scale(0)',opacity:0}],{duration:500,easing:this.E,fill:'both'});
+    w.animate([{clipPath:'inset(0 0% 0 38%)'},{clipPath:'inset(0 100% 0 38%)'}],{duration:500,delay:300,easing:this.E,fill:'both'}); };
+  toggleBreath=()=>{ const s=this.shieldRef.current, w=this.wordRef.current; if(!s||!s.animate) return; this.cancelAnims(s); this.cancelAnims(w);
+    if(this.state.breathing){ this.setState({breathing:false}); return; }
+    s.animate([{transform:'scale(1)'},{transform:'scale(1.01)'},{transform:'scale(1)'},{transform:'scale(0.99)'},{transform:'scale(1)'}],{duration:1667,iterations:Infinity,easing:'ease-in-out'});
+    this.setState({breathing:true}); };
+  playCard=()=>{ const el=this.cardRef.current; if(!el||!el.animate) return; this.cancelAnims(el);
+    el.animate([{opacity:0,offset:0},{opacity:1,offset:0.105},{opacity:1,offset:0.737},{opacity:0,offset:0.842},{opacity:0,offset:0.9},{opacity:1,offset:1}],{duration:3800,easing:'linear'}); };
+
+  res(u){ if(typeof u!=='string'||u.indexOf('assets/')!==0) return u; const k=u.replace(/[^A-Za-z0-9]+/g,'-'); return (window.__resources&&window.__resources[k])||u; }
+  fillI(x){ const BL='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='; if(Array.isArray(x)) return x.map(v=>typeof v==='string'?this.res(v):this.fillI(v)); if(x&&typeof x==='object'&&Object.getPrototypeOf(x)===Object.prototype){ const r={}; Object.keys(x).forEach(k=>{ const v=x[k]; if(/Ref$/.test(k)) r[k]=v; else if(/^(img|img2|icon|photo|flag|src|curImg|curImg2|cImg)$/.test(k)) r[k]=(v===undefined||v===null||v==='')?BL:this.res(v); else r[k]=this.fillI(v); }); return r; } return x; }
+  dlBlob(blob,name){ const u=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=u; a.download=name; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(u),4000); }
+  async zl(arr){ const s=new Blob([arr]).stream().pipeThrough(new CompressionStream('deflate')); return new Uint8Array(await new Response(s).arrayBuffer()); }
+  async saveAs(file,fmt,name,bg,pdf){
+    try{
+      if(fmt==='pdf'&&pdf){ const bl=await fetch(this.res(pdf)).then(r=>r.blob()); this.dlBlob(bl,name+'.pdf'); return; }
+      if(fmt==='mp4'){ const bl=await fetch(this.res(file)).then(r=>r.blob()); this.dlBlob(bl,name+'.mp4'); return; }
+      const img=await new Promise((res,rej)=>{ const i=new Image(); i.onload=()=>res(i); i.onerror=rej; i.src=this.res(file); });
+      const W=img.naturalWidth,H=img.naturalHeight; const cv=document.createElement('canvas'); cv.width=W; cv.height=H; const cx=cv.getContext('2d'); cx.drawImage(img,0,0,W,H);
+      if(fmt==='png'){ cv.toBlob(b=>this.dlBlob(b,name+'.png'),'image/png'); return; }
+      const d=cx.getImageData(0,0,W,H).data, n=W*H, rgb=new Uint8Array(n*3), al=new Uint8Array(n);
+      for(let i=0;i<n;i++){ rgb[i*3]=d[i*4]; rgb[i*3+1]=d[i*4+1]; rgb[i*3+2]=d[i*4+2]; al[i]=d[i*4+3]; }
+      const [zr,za]=await Promise.all([this.zl(rgb),this.zl(al)]);
+      const pw=+(W*0.75).toFixed(2), ph=+(H*0.75).toFixed(2); const en=new TextEncoder(); const chunks=[]; const offs=[]; let len=0;
+      const put=(x)=>{ const u=typeof x==='string'?en.encode(x):x; chunks.push(u); len+=u.length; };
+      const obj=(i,body,stream)=>{ offs[i]=len; put(i+' 0 obj\n'+body); if(stream){ put('\nstream\n'); put(stream); put('\nendstream'); } put('\nendobj\n'); };
+      const bgc=(bg&&bg!=='#FFFFFF')?[0,0.149,0.329]:null; const content=(bgc?'q '+bgc.join(' ')+' rg 0 0 '+pw+' '+ph+' re f Q\n':'')+'q '+pw+' 0 0 '+ph+' 0 0 cm /Im0 Do Q';
+      put('%PDF-1.4\n');
+      obj(1,'<< /Type /Catalog /Pages 2 0 R >>'); obj(2,'<< /Type /Pages /Kids [3 0 R] /Count 1 >>');
+      obj(3,'<< /Type /Page /Parent 2 0 R /MediaBox [0 0 '+pw+' '+ph+'] /Contents 4 0 R /Resources << /XObject << /Im0 5 0 R >> >> >>');
+      obj(4,'<< /Length '+content.length+' >>',en.encode(content));
+      obj(5,'<< /Type /XObject /Subtype /Image /Width '+W+' /Height '+H+' /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /FlateDecode /SMask 6 0 R /Length '+zr.length+' >>',zr);
+      obj(6,'<< /Type /XObject /Subtype /Image /Width '+W+' /Height '+H+' /ColorSpace /DeviceGray /BitsPerComponent 8 /Filter /FlateDecode /Length '+za.length+' >>',za);
+      const xr=len; let x='xref\n0 7\n0000000000 65535 f \n'; for(let i=1;i<=6;i++) x+=String(offs[i]).padStart(10,'0')+' 00000 n \n';
+      put(x+'trailer\n<< /Size 7 /Root 1 0 R >>\nstartxref\n'+xr+'\n%%EOF');
+      this.dlBlob(new Blob(chunks,{type:'application/pdf'}),name+'.pdf');
+    }catch(e){ console.log('download failed '+e.message); }
+  }
+  vidSrc(u){ this.vids=this.vids||{}; if(this.vids[u]) return this.vids[u]; if(!this.vidLoading) this.vidLoading={}; if(!this.vidLoading[u]){ this.vidLoading[u]=true; fetch(this.res(u)).then(r=>r.blob()).then(bl=>{ this.vids[u]=URL.createObjectURL(new Blob([bl],{type:'video/mp4'})); this.forceUpdate(); }).catch(()=>{ this.vids[u]=u; this.forceUpdate(); }); } return ''; }
+  nb(b,avail,c){ const o=this.fillI(this.nb0(b,avail,c)); if(b.t==='video') o.src=this.vidSrc(b.src); return o; }
+  nb0(b,avail,c){
+    const st=this.state, ui=c.ui, S=(t)=>this.segs(t);
+    const o=Object.assign({},b); o['is_'+b.t]=true;
+    const fit=(n,min)=>Math.max(1,Math.min(n,Math.floor((avail+16)/(min+16))));
+    const grid=(n)=>'repeat('+n+', minmax(0, 1fr))';
+    const hair='1px solid rgba(17,17,17,0.12)';
+    switch(b.t){
+      case 'lead': o.segs=S(b.text); o.fs=(b.size==='s'?20:24)-(c.small?2:0); break;
+      case 'p': case 'note': o.segs=S(b.text); break;
+      case 'rule': o.segs=S(b.text); o.bg=b.bad?'rgba(204,0,0,0.07)':'rgba(0,38,84,0.07)'; o.fg=b.bad?'#A30000':'#002654'; break;
+      case 'statement': o.segs=S(b.text); o.fs=b.size==='s'?20:(b.size==='m'?21:(c.small?22:28)); o.pad=c.small?'26px':(b.size?'34px 36px':'52px 56px'); o.align=b.center?'center':'left'; o.border=b.box?'1px solid #002654':'0'; o.radius=b.box?'32px':'0'; if(b.box) o.pad='36px 32px'; o.hasLabel=!!b.label; break;
+      case 'cards': { const want=b.cols||3; const n=fit(want, want>=5?150:200); o.grid=grid(n);
+        o.items=b.items.map((it,i)=>{ const dark=!!it.dark; const tight=n>=4||avail/n<260; return Object.assign({},it,{ key:i, segs:S(it.text), bg:dark?'#002654':'var(--card)', fg:dark?'#FFFFFF':'#111111', mut:dark?'rgba(255,255,255,0.84)':'#4F4A47', rule:dark?'rgba(255,255,255,0.25)':'rgba(17,17,17,0.12)', accent:dark?'#FFD100':'#CC0000', border:it.current?'#002654':'transparent', pad:tight?'22px':'28px', titleFs:tight?19:21,
+          hasChip:!!it.chip, hasPhoto:!!it.photo, photoH:tight?170:240, hasImg:!!it.img, imgH:it.imgH||120, imgBg:it.cover?'transparent':(dark?'transparent':'var(--card)'), imgFit:it.cover?'cover':'contain', imgW:it.cover?'100%':'auto', imgHH:it.cover?'100%':'auto', imgPad:it.cover?'0':'6px',
+          hasIcon:!!it.icon, hasFlag:!!it.flag, hasDisplay:!!it.display, hasNum:!!it.num, hasLabel:!!it.label, hasMeta:!!(it.num||it.label), hasTitle:!!it.title, hasText:!!it.text, hasTags:!!it.tags, hasFoot:!!it.foot, hasExample:!!it.example, hasBars:!!it.bars, hasAa:!!it.aa,
+          isCurrent:!!it.current, hasDur:it.dur!=null, durW:(it.dur||0)+'%', currentLabel:'2027', hasLink:!!it.link, linkLabel:ui.openPart, cursor:it.link?'pointer':'default', onClick:it.link?(()=>this.go(it.link)):undefined,
+          zoom:it.photo?(()=>this.setState({lightbox:{src:it.photo,cap:it.title||''}})):undefined,
+          textFont:it.quote?this.SERIF:this.SANS, textSize:it.quote?17:14.5, textStyle:it.quote?'italic':'normal' }); });
+        break; }
+      case 'table': { const first=b.head||b.rows[0]; const n=first.length; o.hasHead=!!b.head; o.head=(b.head||[]).map((h,i)=>({key:i,text:h}));
+        o.gridCols=b.key?'minmax(120px, 0.8fr) minmax(0, 1.6fr)':(n===2?'minmax(0, 1fr) minmax(0, 2fr)':(n===3?'minmax(0, 1fr) minmax(0, 1.4fr) minmax(0, 1.4fr)':'minmax(0, 1.1fr) minmax(0, 0.9fr) minmax(0, 1.3fr) minmax(0, 1.3fr)'));
+        o.minW=n>=4?720:(n===3?520:0);
+        const bold=!b.plain&&(b.key||b.accent||o.hasHead);
+        o.rows=b.rows.map((r,ri)=>({key:ri, border:ri===b.rows.length-1?'0':'1px solid rgba(17,17,17,0.1)', cells:r.map((cell,ci)=>{ const isObj=cell&&typeof cell==='object'; const text=isObj?(cell.text||''):cell; const imgs=isObj&&cell.imgs?cell.imgs.map((s,k)=>({key:k,src:s})):[]; return {key:ci, segs:S(text), hasImgs:imgs.length>0, imgs, w:(ci===0&&bold)?'600':'400', c:(ci===0&&b.accent)?'#CC0000':'#2A2624'}; })}));
+        break; }
+      case 'list': { const sty=b.style; o.gap=sty==='defs'?0:12;
+        const MK={num:null,bullet:'•',do:'✓',dont:'✗',check:'✓'}, MC={num:'#CC0000',bullet:'#002654',do:'#2E6B3F',dont:'#CC0000',check:'#002654'};
+        o.items=b.items.map((it,i)=>{ const ob=(it&&typeof it==='object')?it:{text:it}; return {key:i, isDefs:sty==='defs', isMarked:sty!=='defs', title:ob.title||'', titleColor:ob.bad?'#CC0000':'#002654', segs:S(ob.text), marker:sty==='num'?String(i+1):MK[sty], markerColor:MC[sty]||'#002654', markerFont:sty==='num'?this.SERIF:this.SANS, markerSize:sty==='num'?18:15, hasImg:!!ob.img, img:ob.img, cols:ob.img?'22px 48px minmax(0, 1fr)':'22px minmax(0, 1fr)', font:ob.font||this.SANS, fs:ob.font?18:15, align:ob.img?'center':'start'}; });
+        break; }
+      case 'images': { const want=b.cols||1; const n=fit(want,220); o.grid=grid(n);
+        o.items=b.items.map((it,i)=>{ const f=it.fit||'cover'; let h=it.h||300; if(c.small) h=Math.round(h*0.7); if(n<want) h=Math.min(h,380); return {key:i, ph:!!it.ph, isImg:!it.ph, src:it.ph?'':it.src, alt:this.strip(it.cap||ui.enlarge), cap:it.cap||'', hasCap:!!it.cap, h, fit:f, bg:it.bg||(f==='contain'?'transparent':'#EDE5DF'), pad:it.pad||0, span:(it.span&&n>1)?('span '+Math.min(it.span,n)):'auto', onClick:()=>this.setState({lightbox:{src:it.src,cap:it.cap||''}})}; });
+        break; }
+      case 'lines': o.pad=c.small?'14px 22px':'20px 40px'; o.fs=c.small?18:21; o.items=b.items.map((t,i)=>({key:i,text:t,border:i===b.items.length-1?'0':hair})); break;
+      case 'stats': o.items=b.items.map((it,i)=>({key:i, big:it.big, hasBig:!!it.big, img:it.img, hasImg:!!it.img, text:it.text, span:it.img?'1 / -1':'auto'})); break;
+      case 'tone': { const sm=avail<640; o.pad=sm?'8px 20px':'8px 32px'; o.cols=sm?'86px minmax(0, 1fr) 86px':'110px minmax(120px, 1fr) 110px minmax(0, 1.5fr)'; o.textSpan=sm?'1 / -1':'auto';
+        o.items=b.items.map((it,i)=>({key:i, l:it.l, r:it.r, left:it.pos+'%', segs:S(it.text), border:i===b.items.length-1?'0':hair})); break; }
+      case 'swatches': o.grid=grid(fit(5,170)); o.items=b.items.map((it,i)=>Object.assign({},it,{key:i, hasTints:!!it.tints, tints:it.tints?[100,80,60,40,20].map(p=>{ const hx=it.codes[0]; const m=(k)=>{ const v=parseInt(hx.slice(1+k*2,3+k*2),16); return Math.round(v*p/100+255*(1-p/100)); }; const x=('#'+[0,1,2].map(k=>m(k).toString(16).padStart(2,'0')).join('')).toUpperCase(); const lum=(m(0)*0.299+m(1)*0.587+m(2)*0.114); return {key:p,label:p+'%',hex:x,fg:lum<140?'#FFFFFF':'#111111',onClick:()=>this.copy(x)}; }):[], hasCodeNote:!!it.codeNote, codes:it.codes.map((cd,k)=>({key:k, c:cd, title:ui.copy, state:st.copied===cd?ui.copied:'', bg:st.copied===cd?'var(--page)':'var(--card)', onClick:()=>this.copy(cd)}))})); break;
+      case 'social': o.items=b.items.map((it,i)=>({key:i,name:it.name,icon:'assets/social/'+it.icon+'.svg'})); break;
+      case 'compare': { const ix=Math.min(st.cmpIdx||0,b.items.length-1); const pos=st.cmpPos==null?50:st.cmpPos; o.lblBefore=b.lbl.before; o.lblAfter=b.lbl.after; o.lblSlider=b.lbl.slider; o.src=b.items[ix].src; o.h=c.small?260:440; o.pos=pos; o.clip='inset(0 0 0 '+pos+'%)'; o.fBefore='saturate(1.38) contrast(0.86) brightness(1.04) hue-rotate(-7deg)'; o.fAfter='saturate(0.95) contrast(1.12) brightness(1.04) sepia(0.07)'; o.thumbs=b.items.map((it,i)=>({key:i,src:it.src,label:'Photo '+(i+1),bd:i===ix?'#002654':'transparent',onClick:()=>this.setState({cmpIdx:i})})); o.onPos=(e)=>this.setState({cmpPos:Number(e.target.value)}); break; }
+      case 'fontlinks': o.cols=avail<720?'minmax(0, 1fr)':'minmax(0, 1.1fr) minmax(0, 1.2fr) auto'; o.items=b.items.map((it,i)=>Object.assign({},it,{key:i,weight:it.weight||400,links:it.links.map((l,k)=>Object.assign({},l,{key:k}))})); break;
+      case 'layoutex': o.grid=grid(fit(2,360)); break;
+      case 'ratio': o.items=b.items.map((it,i)=>({key:i, name:it.name, pct:it.pct, bg:it.bg, width:it.pct+'%', tip:it.name+' · '+it.pct+'%'})); break;
+      case 'modes': { const idx=Math.min(st.modeIdx,b.items.length-1); const cur=b.items[idx]; o.curBg=cur.bg; o.curImg=cur.img; o.curImg2=cur.img2||''; o.hasImg2=!!cur.img2; o.curLabel=cur.label; o.stageH=c.small?260:400;
+        o.tabs=b.items.map((it,i)=>({key:i,label:it.label,sel:i===idx,onClick:()=>this.setState({modeIdx:i}),bg:i===idx?'#002654':'var(--card)',fg:i===idx?'#FFFFFF':'#111111',border:i===idx?'#002654':'rgba(17,17,17,0.2)'})); break; }
+      case 'anim': { o.wordRef=this.wordRef; o.shieldRef=this.shieldRef; o.logoW=Math.max(220,Math.min(520,Math.round(avail-48))); o.logoHt=Math.round(o.logoW*471/1000); o.stageH=o.logoHt+120;
+        o.onPlay=this.playBuild; o.onExit=this.playExit; o.onBreath=this.toggleBreath; o.breathing=st.breathing; o.breathBg=st.breathing?'#002654':'#FFFFFF'; o.breathFg=st.breathing?'#FFFFFF':'#002654'; o.playLabel=ui.play; o.exitLabel=ui.exit; o.breathLabel=ui.breathe; break; }
+      case 'checker': { const txt=st.checker; const low=txt.toLowerCase(); const esc=(s)=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+        const find=(list)=>{ const f=[]; list.forEach(wd=>{ let re; try{ re=new RegExp('(^|[^\\p{L}\\p{N}])'+esc(wd)+'(?=$|[^\\p{L}\\p{N}])','iu'); }catch(e){ re=new RegExp(esc(wd),'i'); } if(re.test(low)&&f.indexOf(wd)<0) f.push(wd); }); return f; };
+        const av=low.trim()?find(b.avoid):[], us=low.trim()?find(b.use):[];
+        o.value=txt; o.onChange=(e)=>this.setState({checker:e.target.value}); o.avoidFound=av.map((w,i)=>({key:i,text:w})); o.useFound=us.map((w,i)=>({key:i,text:w})); o.hasAvoid=av.length>0; o.noAvoid=!!low.trim()&&av.length===0; o.hasUse=us.length>0; break; }
+      case 'chips': o.items=b.items.map((t,i)=>({key:i,text:t,border:b.tone==='dont'?'rgba(204,0,0,0.4)':'rgba(0,38,84,0.35)',fg:b.tone==='dont'?'#A30000':'#002654',deco:b.tone==='dont'?'line-through':'none'})); break;
+      case 'qa': { const qa=st.qa; let cnt=0; o.items=b.items.map((t,i)=>{ const ch=!!qa[i]; if(ch) cnt++; return {key:i,text:t,checked:ch,mark:ch?'✓':'',boxBg:ch?'#002654':'#FFFFFF',boxBorder:ch?'#002654':'rgba(17,17,17,0.45)',onClick:()=>{ const n=Object.assign({},this.state.qa,{[i]:!this.state.qa[i]}); this.setState({qa:n}); this.saveQa(n,this.state.reviewer); }}; });
+        o.count=cnt; o.total=b.items.length; o.pct=Math.round(cnt/b.items.length*100)+'%'; o.allDone=cnt===b.items.length; o.barColor=o.allDone?'#002654':'#CC0000'; o.grid=grid(fit(2,320)); o.pad=c.small?'22px':'32px 36px';
+        o.reviewerVal=st.reviewer; o.onReviewer=(e)=>{ const v=e.target.value; this.setState({reviewer:v}); this.saveQa(this.state.qa,v); };
+        o.onReset=()=>{ this.setState({qa:{},reviewer:''}); this.saveQa({},''); }; break; }
+      case 'typescale': { const lv=st.typeLevel; const sans=lv===1?'Montserrat, Arial, sans-serif':'Arial, Helvetica, sans-serif'; const sm=avail<620;
+        o.pad=sm?'18px 20px':'24px 32px'; o.cols=sm?'minmax(0, 1fr)':'minmax(0, 1fr) 250px';
+        o.tabs=[{key:1,label:ui.level1,v:1},{key:2,label:ui.level2,v:2}].map(t=>({key:t.key,label:t.label,sel:lv===t.v,onClick:()=>this.setState({typeLevel:t.v}),bg:lv===t.v?'#002654':'var(--card)',fg:lv===t.v?'#FFFFFF':'#111111',border:lv===t.v?'#002654':'rgba(17,17,17,0.2)'}));
+        o.rows=b.rows.map((r,i)=>({key:i, sample:r.sample, spec:r.spec, font:r.serif?this.SERIF:sans, size:sm&&r.size>30?Math.round(r.size*0.72):r.size, weight:r.weight, fstyle:r.italic?'italic':'normal', tt:r.caps?'uppercase':'none', ls:r.caps?'0.08em':'normal', lh:r.lh||1.3})); break; }
+      case 'specimen': o.grid=grid(fit(b.items.length,340)); o.items=b.items.map((it,i)=>Object.assign({},it,{key:i, weight:it.weight||400, showWeights:!it.restricted, aaSize:avail/(b.items.length)<420?96:120, charSize:avail/(b.items.length)<480?19:24, hasTag:!!it.tag, hasDesc:!!it.desc})); break;
+      case 'levels': o.grid=grid(fit(2,300)); o.items=b.items.map((it,i)=>Object.assign({},it,{key:i})); break;
+      case 'fallback': o.rows=b.rows.map((r,i)=>({key:i,name:r.name,s:r.s,chain:r.chain.map((ch,k)=>({key:k,n:ch.n,s:ch.s}))})); break;
+      case 'pyramid': { const W=['64%','82%','100%'], BG=['#002654','rgba(0,38,84,0.12)','var(--card)']; o.items=b.items.map((it,i)=>({key:i,title:it.title,text:it.text,width:c.small?'100%':W[i]||'100%',bg:BG[i]||'#FFFFFF',fg:i===0?'#FFFFFF':'#111111',mut:i===0?'rgba(255,255,255,0.84)':'#4F4A47'})); break; }
+      case 'flow': o.grid=grid(fit(4,180)); o.items=b.items.map((it,i)=>{ const last=i===b.items.length-1; return {key:i,num:String(i+1),title:it.title,text:it.text,bg:last?'#002654':'var(--card)',fg:last?'#FFFFFF':'#111111',mut:last?'rgba(255,255,255,0.84)':'#4F4A47',numColor:last?'#FFD100':'#CC0000'}; }); break;
+      case 'schedule': o.items=b.items.map((it,i)=>({key:i,time:it.time,text:it.text,border:i===b.items.length-1?'0':'1px solid rgba(17,17,17,0.1)'})); break;
+
+      case 'venn': { const PS=[{x:'0%',y:'0%',bg:'rgba(0,38,84,0.10)',line:'#002654',ai:'flex-start',jc:'flex-start',pad:'24% 0 0 16%'},{x:'42%',y:'0%',bg:'rgba(204,0,0,0.08)',line:'#CC0000',ai:'flex-start',jc:'flex-end',pad:'24% 16% 0 0'},{x:'21%',y:'36%',bg:'rgba(255,209,0,0.22)',line:'#C9A000',ai:'flex-end',jc:'center',pad:'0 0 16% 0'}];
+        o.circles=b.items.map((it,i)=>Object.assign({key:i,title:it.title,text:it.text||''},PS[i])); o.hasLegend=!!b.legend; o.lgrid=grid(fit(3,170)); o.fs=avail<420?14:18; o.cy='45%'; break; }
+      case 'tree': { const sm=avail<620; o.levels=b.levels.map((lv,i)=>{ const split=lv.length>1; return {key:i, notFirst:i>0, isSplit:split&&!sm, barW:'50%', grid:(split&&!sm)?'repeat(2, minmax(0, 1fr))':'minmax(0, 1fr)', w:sm?'100%':(split?'100%':(70+i*10)+'%'),
+        nodes:lv.map((nd,k)=>({key:k, role:nd.role, text:nd.text, img:nd.img, hasImg:!!nd.img, display:nd.display, hasDisplay:!!nd.display, bg:nd.dark?'#002654':'var(--card)', fg:nd.dark?'#FFFFFF':'#111111', mut:nd.dark?'rgba(255,255,255,0.84)':'#4F4A47', accent:nd.dark?'#FFD100':'#CC0000', cols:(sm||split)?'minmax(0, 1fr)':'minmax(0, 1fr) minmax(0, 1.2fr)'}))}; }); break; }
+      case 'timeline': { const n=b.items.length; o.minW=n*165; o.grid='repeat('+n+', minmax(0, 1fr))'; o.pad=c.small?'22px':'28px 32px'; o.yfs=n>5?21:25; o.imgH=b.imgH||90;
+        o.items=b.items.map((it,i)=>({key:i, year:it.year, title:it.title, text:it.text||'', hasText:!!it.text, img:it.img, hasImg:!!it.img, yc:it.now?'#CC0000':'#002654', dot:it.now?'#CC0000':'#002654', lineR:i===n-1?'calc(100% - 14px)':'0'})); break; }
+      case 'quad': { o.grid=avail>=900?grid(4):(avail>=420?grid(2):grid(1)); const BAR=['#002654','#CC0000','#FFD100','#002654']; o.items=b.items.map((it,i)=>Object.assign({},it,{key:i, segs:S(it.text), bar:BAR[i%4]})); break; }
+      case 'funnel': { const sm=avail<640; const BG=['#002654','#203C66','#3D5579','#DCE3EC','#EEF1F5'], FG=['#FFFFFF','#FFFFFF','#FFFFFF','#111111','#111111'], MU=['rgba(255,255,255,0.82)','rgba(255,255,255,0.82)','rgba(255,255,255,0.88)','#4F4A47','#4F4A47'];
+        o.cols=sm?'minmax(0, 1fr)':'minmax(0, 0.9fr) minmax(0, 1.6fr) minmax(0, 1fr)'; o.items=b.items.map((it,i)=>({key:i,n:String(i+1),name:String(it.title).replace(/^\d+\.\s*/,''),title:it.title,text:it.text,lead:it.lead,w:sm?'100%':(100-i*7)+'%',bg:BG[i]||BG[4],fg:FG[i]||'#111111',mut:MU[i]||'#4F4A47'})); break; }
+      case 'poles': o.pad=c.small?'4px 18px':'4px 32px'; o.fs=avail<560?16:20; o.items=b.items.map((it,i)=>({key:i,l:it.l,r:it.r,text:it.text,border:i===b.items.length-1?'0':hair})); break;
+      case 'orbit': { const PS=[[79,21],[79,79],[21,79],[21,21]]; const sm=avail<520; o.sats=b.sats.map((s,i)=>({key:i,title:s.title,text:s.text,x:PS[i][0]+'%',y:PS[i][1]+'%'})); o.core=b.core.map((s,i)=>({key:i,title:s.title,text:s.text})); o.coreFs=sm?13:17; o.satW=sm?'28%':'24%'; o.satFs=sm?10:12.5; o.lgrid=grid(fit(2,260)); break; }
+      case 'callouts': { const three=avail>=760; o.cols=three?(b.wide?'minmax(0, 1fr) minmax(0, 1.4fr) minmax(0, 1fr)':'minmax(0, 1fr) minmax(0, 0.9fr) minmax(0, 1fr)'):'minmax(0, 1fr)'; o.lOrder=three?1:2; o.cOrder=three?2:1; o.pad=c.small?'22px':'32px'; o.imgMax=b.wide?520:340; o.lineDisp=three?'block':'none';
+        const sel=st.coSel; const sl=[].concat(b.left,b.right).find(x=>x.title===sel); o.cImg=(sl&&sl.icon)||b.img; o.coHint=sl?(c.lang==='fr'?'Cliquez à nouveau pour revenir à l’écusson.':'Click again to return to the shield.'):(c.lang==='fr'?'Cliquez sur un élément pour l’isoler.':'Click an element to isolate it.');
+        const mk=(arr,side)=>arr.map((it,i)=>({key:i,onClick:()=>this.setState({coSel:sel===it.title?'':it.title}),bgc:sel===it.title?'#FFFFFF':'transparent',bdc:sel===it.title?'#002654':'transparent',title:it.title,segs:S(it.text),icon:it.icon,hasIcon:!!it.icon,ta:(three&&side==='l')?'right':'left',dir:(three&&side==='l')?'row':'row-reverse',self:(three&&side==='l')?'flex-end':'flex-start'})); o.left=mk(b.left,'l'); o.right=mk(b.right,'r'); break; }
+      case 'bars': o.isStack=!!b.stack; o.isRows=!b.stack; o.hasTitle=!!b.title; o.cols=avail<420?'110px minmax(0, 1fr) 40px':'190px minmax(0, 1fr) 46px'; o.items=b.items.map((it,i)=>({key:i,label:it.label,value:it.value,pct:(it.v*100).toFixed(2)+'%',bg:it.bg||'#002654'})); break;
+      case 'ratios': { const B=avail<480?110:140; o.items=b.items.map((it,i)=>{ const w=it.a>=it.b?B:Math.round(B*it.a/it.b), hh=it.a>=it.b?Math.round(B*it.b/it.a):B; return {key:i,r:it.r,use:it.use,w,h:hh,capW:Math.max(w,120)}; }); break; }
+      case 'decision': { const n=b.branches.length; const cn=fit(n,200); o.grid=grid(cn); o.barW=(cn===n&&n>1)?((n-1)/n*100).toFixed(1)+'%':'0'; o.branches=b.branches.map((br,i)=>({key:i,label:br.label,title:br.title,text:br.text,imgs:(br.imgs||[]).map((s,k)=>({key:k,src:s}))})); break; }
+      case 'gantt': { const mn=b.min, mx=b.max, sp=mx-mn; const X=(v)=>((Math.min(Math.max(v,mn),mx)-mn)/sp*100);
+        o.hasTitle=!!b.title; o.pad=c.small?'20px':'26px 30px'; o.cols=avail<560?'minmax(0, 1fr)':'200px minmax(0, 1fr)'; o.hasZero=b.zero!=null; o.zeroX=o.hasZero?X(b.zero)+'%':'0';
+        o.rows=b.rows.map((r,i)=>{ const x=X(Math.min(r.from,r.to)), x2=X(Math.max(r.from,r.to)), w=x2-x; const point=w===0; const inside=!point&&w>=24; const end=(point?x:x2)>78;
+          return {key:i,label:r.label,isBar:!point,isPoint:point,x:x+'%',w:w+'%',bg:r.bg||'#002654',fg:r.fg||'#FFFFFF',note:inside?(r.note||''):'',hasOut:!inside&&!!r.note,outNote:r.note||'',outX:end?'auto':('calc('+(point?x:x2)+'% + '+(point?12:8)+'px)'),outR:end?('calc('+(100-x)+'% + '+(point?12:8)+'px)'):'auto'}; });
+        o.ticks=(b.ticks||[]).map((t,i,a)=>({key:i,label:t.l,x:X(t.v)+'%',tx:i===0?'0':(i===a.length-1?'-100%':'-50%')})); break; }
+      case 'donuts': o.grid=grid(fit(b.charts.length,380)); o.size=avail/b.charts.length<440?150:180;
+        o.charts=b.charts.map((ch,i)=>{ let acc=0; const stops=ch.items.map(it=>{ const s=acc; acc+=it.pct; return it.bg+' '+s+'% '+acc+'%'; }); return {key:i,title:ch.title,center:ch.center,grad:'conic-gradient('+stops.join(', ')+')',items:ch.items.map((it,k)=>({key:k,name:it.name,pct:it.pct,bg:it.bg}))}; }); break;
+      case 'matrix': o.cols='minmax(170px, 1.6fr) repeat('+b.head.length+', minmax(0, 1fr))'; o.head=b.head.map((x,i)=>({key:i,text:x}));
+        o.rows=b.rows.map((r,i)=>({key:i,label:r.label,border:i===b.rows.length-1?'0':'1px solid rgba(17,17,17,0.1)',cells:r.cells.map((v,k)=>({key:k,text:v===1?b.l1:(v===2?b.l2:(v===3?b.l3:'')),vis:v?'visible':'hidden',bg:v===1?'#002654':(v===3?'#FFD100':'transparent'),fg:v===1?'#FFFFFF':'#111111',bd:v===3?'#FFD100':'#002654'}))})); break;
+      case 'journey': { const sm=avail<620; o.pad=sm?'20px':'28px 32px'; o.cols=sm?'minmax(0, 1fr)':'minmax(0, 0.8fr) minmax(0, 1.6fr)'; const its=b.items;
+        o.items=its.map((it,i)=>{ const nx=its[i+1]; return {key:i,isH:!!it.h,isRow:!it.h,h:it.h||'',n:it.n||'',title:it.title||'',segs:S(it.text),dot:it.n?32:16,dotM:it.n?0:8,dotBg:it.n?'#002654':'var(--card)',lineBg:(nx&&!nx.h)?'rgba(0,38,84,0.35)':'transparent'}; }); break; }
+      case 'elevation': { const Hh=300, k=Hh/2200; o.H=Hh; o.doorH=Math.round(2100*k); o.doorW=Math.round(900*k); o.plateW=Math.max(24,Math.round(b.plateW*k)); o.plateH=Math.max(18,Math.round(b.plateH*k)); o.dimH=Math.round(b.height*k); o.plateL=8+o.doorW+26; o.plateB=Math.round(o.dimH-o.plateH/2); o.pocketB=o.plateB-10; o.sizeB=o.plateB+o.plateH+8; o.dimL=o.plateL+o.plateW+14; o.labL=o.dimL+8; o.labB=Math.round(o.dimH/2); o.W=o.labL+90; o.hLabel=b.height+' mm'; o.sizeLabel=b.plateW+' × '+b.plateH+' mm'; break; }
+
+      case 'icons': { o.grid=grid(fit(8,92)); this.loadIcons(b.names); const fr=c.lang==='fr'; const q=(st.icQ||'').trim().toLowerCase().replace(/\s+/g,'-'); const fnd=st.icFound; o.icQ=st.icQ||''; o.icPh=fr?'Rechercher une icône Lucide, ex. : bus, calendar':'Search any Lucide icon, e.g. bus, calendar'; o.libLink=fr?'Parcourir la bibliothèque Lucide':'Browse the full Lucide library'; o.icSearchUrl='https://lucide.dev/icons/?search='+encodeURIComponent(st.icQ||''); o.icSearchLbl=fr?'Chercher sur lucide.dev':'Search on lucide.dev';
+        o.onIcQ=(e)=>{ const v=e.target.value; this.setState({icQ:v,icFound:null}); clearTimeout(this.icT); const n=v.trim().toLowerCase().replace(/\s+/g,'-'); if(!n) return; this.icT=setTimeout(()=>{ fetch('https://unpkg.com/lucide-static@0.460.0/icons/'+encodeURIComponent(n)+'.svg').then(r=>r.ok?r.text():Promise.reject()).then(t=>{ if(t.indexOf('<svg')<0) throw 0; this.setState(s=>(s.icQ||'').trim().toLowerCase().replace(/\s+/g,'-')===n?{icFound:{name:n,src:'data:image/svg+xml;charset=utf-8,'+encodeURIComponent(t.replace(/currentColor/g,'#002654'))}}:null); }).catch(()=>{ this.setState(s=>(s.icQ||'').trim().toLowerCase().replace(/\s+/g,'-')===n?{icFound:'none'}:null); }); },350); };
+        const inGrid=!!q&&b.names.indexOf(q)>=0; o.hasFound=!!(fnd&&fnd!=='none'&&!inGrid); o.found=o.hasFound?{src:fnd.src,label:st.copied===fnd.name?ui.copied:fnd.name,note:fr?'Cliquez pour copier le nom':'Click to copy the name',bg:st.copied===fnd.name?'var(--page)':'var(--card)',onClick:()=>this.copy(fnd.name)}:{src:'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==',label:'',note:'',bg:'var(--card)',onClick:null}; o.noIcon=!!q&&fnd==='none'&&!b.names.some(n=>n.indexOf(q)>=0); o.noIconMsg=fr?'Aucune icône portant exactement ce nom. Essayez le lien ci-dessus.':'No icon with that exact name. Try the lucide.dev link.';
+        o.items=b.names.filter(n=>!q||n.indexOf(q)>=0).map((n,i)=>{ const cp=st.copied===n; return {key:i,name:n,src:(this.iconSrc&&this.iconSrc[n])||'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==',label:cp?ui.copied:n,url:'https://unpkg.com/lucide-static@0.460.0/icons/'+n+'.svg',onClick:()=>this.copy(n),bg:cp?'var(--page)':'var(--card)',fg:cp?'#002654':'#4F4A47',w:cp?700:500}; }); break; }
+      case 'curves': { const AMP=[10,18,28]; const svg=(s,v,hf,z)=>{ const A=AMP[z]; const pts=[]; for(let i=0;i<=40;i++){ const t=i/40; let x,y; if(s===0){ x=100*t; y=(1-t)*(1-t)*A+2*(1-t)*t*(-A)+t*t*A; } else { x=(1-t)*(1-t)*0+2*(1-t)*t*30+t*t*100; y=(1-t)*(1-t)*A; } if(hf) x=100-x; if(v) y=100-y; pts.push(x.toFixed(2)+'% '+y.toFixed(2)+'%'); } const base=v?['100% 0%','0% 0%']:['100% 100%','0% 100%']; if(hf) base.reverse(); return 'polygon('+pts.concat(base).join(', ')+')'; };
+        const S=st.cvS, V=st.cvV, H=st.cvH, Z=st.cvZ, M=st.cvMode, CI=st.cvC; const tab=(on)=>({bg:on?'#002654':'var(--card)',fg:on?'#FFFFFF':'#111111',border:on?'#002654':'rgba(17,17,17,0.22)'});
+        o.L=b.lbl; o.ctrlGrid=avail<700?'minmax(0, 1fr)':'repeat(4, minmax(0, auto))';
+        o.presets=b.presets.map((p,i)=>{ const on=p.s===S&&p.v===V&&(p.s===0||p.h===H)&&Z===1; return {key:i,n:p.n,sel:on,ring:on?'#CC0000':'transparent',lc:on?'#CC0000':'#4F4A47',t:p.v?'0':'auto',bt:p.v?'auto':'0',mask:svg(p.s,p.v,p.h,1),onClick:()=>this.setState({cvS:p.s,cvV:p.v,cvH:p.h,cvZ:1})}; });
+        o.shapeT=[[0,b.lbl.rounded],[1,b.lbl.scalloped]].map(([v,l])=>Object.assign({key:v,label:l,onClick:()=>this.setState({cvS:v})},tab(S===v)));
+        o.flipT=[{key:0,label:'↕ '+b.lbl.flipV,on:!!V,op:1,onClick:()=>this.setState({cvV:V?0:1})},{key:1,label:'↔ '+b.lbl.flipH,on:!!H,op:S===0?0.4:1,onClick:()=>this.setState({cvH:H?0:1})}].map(x=>Object.assign(x,{sel:x.on},tab(x.on)));
+        o.sizeT=['S','M','L'].map((l,i)=>Object.assign({key:i,label:l,onClick:()=>this.setState({cvZ:i})},tab(Z===i)));
+        o.modeT=[[0,b.lbl.divider],[1,b.lbl.mask]].map(([v,l])=>Object.assign({key:v,label:l,onClick:()=>this.setState({cvMode:v})},tab(M===v)));
+        o.colorT=b.colors.map((cl,i)=>({key:i,name:cl.name,v:cl.v,ring:i===CI?'#111111':'transparent',onClick:()=>this.setState({cvC:i})})); o.colorName=b.colors[CI].name;
+        const col=b.colors[CI].v; const light=(col==='#FFFFFF'||col==='#F9F1EC'||col==='#FFD100');
+        o.mask=svg(S,V,H,Z); o.fill=col; o.photo=M===1?('url('+this.res(b.img)+')'):'none';
+        o.blkT=V?'0':'auto'; o.blkB=V?'auto':'0'; o.txtT=V?'auto':'6%'; o.txtB=V?'6%':'auto';
+        o.stageBg=(M===0&&(col==='#FFFFFF'||col==='#F9F1EC'))?'#002654':'var(--page)';
+        const darkStage=o.stageBg==='#002654'; o.tc=darkStage?'#FFFFFF':'#111111'; o.kc=darkStage?'#FFD100':'#CC0000';
+        o.caption=(M===1?b.lbl.mask:b.lbl.divider)+' · '+(S===0?b.lbl.rounded:b.lbl.scalloped)+' · '+['S','M','L'][Z];
+        o.stageH=c.small?260:400; o.tfs=avail<600?20:30; break; }
+      case 'downloads': { o.grid=grid(fit(4,230)); o.lbl=b.lbl;
+        o.groups=b.groups.map((gr,gi)=>({key:gi,title:gr.title,items:gr.items.map((it,k)=>{ const key=gi+'-'+k; const si=Math.min(st.dl[key]||0,it.variants.length-1); const v=it.variants[si]; const e0=(v.file.split('.').pop()||'').toLowerCase(); const vid=e0==='mp4'; const fmt=vid?'mp4':(st.dlf[key]||'png'); const base=this.strip(it.name)+' - '+this.strip(v.label);
+          return {key:k,name:it.name,img:vid?'':v.file,isVideo:vid,isImg:!vid,bg:v.bg||'#FFFFFF',ext:fmt.toUpperCase(),canFmt:!vid,
+            fmts:['png','pdf'].map(f=>({key:f,label:f.toUpperCase(),sel:fmt===f,onClick:()=>this.setState({dlf:Object.assign({},this.state.dlf,{[key]:f})}),bg:fmt===f?'#002654':'transparent',fg:fmt===f?'#FFFFFF':'#111111',border:fmt===f?'#002654':'rgba(17,17,17,0.22)'})),
+            onDownload:()=>this.saveAs(v.file,fmt,base,v.bg,v.pdf),
+            chips:it.variants.map((vr,vi)=>({key:vi,label:vr.label,sel:vi===si,onClick:()=>this.setState({dl:Object.assign({},this.state.dl,{[key]:vi})}),bg:vi===si?'#002654':'transparent',fg:vi===si?'#FFFFFF':'#111111',border:vi===si?'#002654':'rgba(17,17,17,0.22)'}))}; })})); break; }
+      case 'titlecard': o.cardRef=this.cardRef; o.onPlay=this.playCard; o.fs=avail<620?24:40; break;
+    }
+    return o;
+  }
+
+  ns(s,c){
+    const rows=(s.blocks||[]).map((item,ri)=>{
+      if(Array.isArray(item.cols)){ const n=item.cols.length; const stack=(n>=3&&c.mainW<880)||(n===2&&c.mainW<720);
+        return {key:ri, cols:item.cols.map((bl,ci)=>{ const span=stack?12:item.w[ci]; const avail=stack?c.mainW:(c.mainW*span/12-30); return {key:ci, span, blocks:bl.map((b,bi)=>Object.assign(this.nb(b,avail,c),{key:bi}))}; })}; }
+      return {key:ri, cols:[{key:0, span:12, blocks:[Object.assign(this.nb(item,c.mainW,c),{key:0})]}]};
+    });
+    const roomy=!!s.roomy||['3-9','6-1','6-1b'].includes(s.id); rows.forEach(r=>{r.mt=roomy?'72px':'32px'; r.cg=roomy?'44px':'22px';});
+    return {key:s.id, id:s.id, domId:'sec-'+s.id, kicker:s.kicker, titleSegs:this.segs(s.title), sub:s.sub||'', hasSub:!!s.sub, draft:!!s.draft, review:!!s.review, rows};
+  }
+
+  renderVals(){
+    const st=this.state, lang=st.lang;
+    const X={en:{bgLabel:'Page background',bgWhite:'White background',bgVellum:'Vellum background',contentsTitle:'Table of Contents',malaysia:'Malaysia',openPart:'Open this part',enlarge:'Enlarge image'},fr:{bgLabel:'Fond de page',bgWhite:'Fond blanc',bgVellum:'Fond vélin',contentsTitle:'Table des matières',malaysia:'Malaisie',openPart:'Ouvrir cette partie',enlarge:'Agrandir l’image'}};
+    const ui=Object.assign({},(window.FSKL_UI||{})[lang]||{},X[lang]);
+    const w=st.w, narrow=w<1000, small=w<700;
+    const padX=small?20:(narrow?32:56);
+    const mainW=Math.max(280,Math.min(1180,w-(narrow?0:288)-padX*2));
+    const c={ui,small,narrow,mainW,lang};
+    const base={
+      pageBg:this.bgMode()==='white'?'#FFFFFF':'#F9F1EC', cardBg:this.bgMode()==='white'?'#F9F1EC':'#FFFFFF', isWhite:st.pageBg==='white', isVellum:st.pageBg!=='white', whiteRing:st.pageBg==='white'?'#002654':'transparent', vellumRing:st.pageBg!=='white'?'#002654':'transparent', setWhite:()=>this.setBg('white'), setVellum:()=>this.setBg('vellum'),
+      ui, narrow, small, hdrPad:small?12:24, logoH:small?26:34, showManualLabel:w>=1100, searchFlex:small?'1 1 auto':'0 1 320px',
+      q:st.q, onQuery:(e)=>this.setState({q:e.target.value,searchOpen:true}), openSearch:()=>this.setState({searchOpen:true}),
+      isEn:lang==='en', isFr:lang==='fr', setEn:()=>this.setLang('en'), setFr:()=>this.setLang('fr'),
+      enBg:lang==='en'?'#002654':'#FFFFFF', enFg:lang==='en'?'#FFFFFF':'#002654', frBg:lang==='fr'?'#002654':'#FFFFFF', frFg:lang==='fr'?'#FFFFFF':'#002654',
+      toggleNav:()=>this.setState({navOpen:!this.state.navOpen}), closeNav:()=>this.setState({navOpen:false}), goHome:()=>this.go('home'),
+      showScrim:narrow&&st.navOpen,
+      nav:narrow?{display:st.navOpen?'block':'none',pos:'fixed',z:40,w:'300px',shadow:'0 18px 50px rgba(0,38,84,0.2)'}:{display:'block',pos:'sticky',z:1,w:'288px',shadow:'none'},
+      ready:false, showResults:false, results:[], navParts:[], sections:[], toc:[],
+      hasLightbox:!!st.lightbox, lbSrc:st.lightbox?this.res(st.lightbox.src):'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==', lbCap:st.lightbox?this.strip(st.lightbox.cap):'', hasLbCap:!!(st.lightbox&&st.lightbox.cap), closeLightbox:()=>this.setState({lightbox:null}),
+      coverPad:small?'40px 20px':(narrow?'48px 32px':'64px 56px'), secPad:(small?'48px ':'72px ')+padX+'px '+(small?'28px':'40px'), pnPad:'40px '+padX+'px', footPad:'36px '+padX+'px 48px',
+      h2:small?30:40, sloganFs:small?22:30, tocGrid:'repeat('+Math.max(1,Math.min(4,Math.floor((mainW+16)/256)))+', minmax(0, 1fr))',
+      phCols:small?'minmax(0, 1fr)':'minmax(0, 1fr) auto', phTitle:small?40:(narrow?52:64), phNum:small?110:(narrow?170:230),
+      navTop:narrow?64:0, sr:small?{pos:'fixed',top:'72px',left:'12px',right:'12px',width:'auto'}:(narrow?{pos:'fixed',top:'72px',left:'12px',right:'auto',width:'460px'}:{pos:'fixed',top:'20px',left:'300px',right:'auto',width:'460px'}),
+      homeNav:{bg:st.view==='home'?'var(--card)':'transparent',weight:st.view==='home'?600:500},
+      screenLabel:'Home'
+    };
+    if(!st.ready||!this.raw) return base;
+    const parts=this.parts(lang);
+    const body=parts.filter(p=>p.id!=='front');
+    let view=st.view; if(view!=='home'&&!body.find(p=>p.id===view)) view='home';
+    const isHome=view==='home';
+    const curRaw=isHome?parts.find(p=>p.id==='front'):body.find(p=>p.id===view);
+
+    const navParts=body.map(p=>{ const active=p.id===view; return {key:p.id, num:p.num, title:p.title, active, bg:active?'var(--card)':'transparent', numColor:active?'#CC0000':'#002654', weight:active?600:500, onClick:()=>this.go(p.id),
+      sections:active?p.sections.map(s=>({key:s.id, title:this.strip(s.kicker||s.title), color:st.activeSec===s.id?'#CC0000':'#4F4A47', weight:st.activeSec===s.id?600:400, onClick:()=>this.go(p.id,s.id)})):[]}; });
+
+    const pb=this.bgMode()==='white'?'#FFFFFF':'#F9F1EC', cb=pb==='#FFFFFF'?'#F9F1EC':'#FFFFFF';
+    const dvs=(i)=>{ const p=i%6; const S=[0,1,0,1,1,1][p], V=[1,1,0,1,0,0][p], H=[0,0,0,1,0,1][p]; const P=[]; for(let x=0;x<=100;x+=2){ let y=S?100-80*Math.pow(x/100,2):100-80*Math.sin(Math.PI*x/100); const X=H?100-x:x; if(V) y=100-y; P.push(X+'% '+y.toFixed(1)+'%'); } const up=i%2?cb:pb, lo=(i===curRaw.sections.length-1)?pb:((i+1)%2?cb:pb); const poly=V?'polygon(0% 0%, '+P.join(', ')+', 100% 0%)':'polygon(0% 100%, '+P.join(', ')+', 100% 100%)'; const ob=V?lo:up, ib=V?up:lo; return {outer:'height:41px;margin-top:-1px;background:'+ob+';position:relative;overflow:hidden;', inner:'position:absolute;left:0;right:0;top:0;bottom:0;background:'+ib+';clip-path:'+poly+';'}; };
+    const sections=curRaw.sections.map((s,i)=>Object.assign(this.ns(s,c),{style:'padding:'+base.secPad+';background:'+(i%2?cb:pb)+';--sec:'+(i%2?cb:pb)+';--card:transparent;',divStyle:dvs(i).outer,divIn:dvs(i).inner}));
+    const order=['home'].concat(body.map(p=>p.id)); const oi=order.indexOf(view);
+    const lab=(id)=>{ if(id==='home') return ui.home; const p=body.find(x=>x.id===id); return p.num+' · '+p.title; };
+    const prevId=oi>0?order[oi-1]:null, nextId=oi<order.length-1?order[oi+1]:null;
+
+    let results=[];
+    const qf=this.fold(st.q.trim());
+    if(qf.length>=2){ const hits=[];
+      this.index(lang).forEach(e=>{ const i=e.f.indexOf(qf); if(i<0) return; const a=Math.max(0,i-48), z=Math.min(e.blob.length,i+qf.length+90); const inTitle=this.fold(this.strip(e.s.title)).indexOf(qf)>=0;
+        hits.push({rank:inTitle?0:1, key:e.p.id+'-'+e.s.id, part:e.p.num?(ui.part+' '+e.p.num+' · '+e.p.title):e.p.title, sec:this.strip(e.s.title), pre:(a>0?'…':'')+e.blob.slice(a,i), hit:e.blob.slice(i,i+qf.length), post:e.blob.slice(i+qf.length,z)+(z<e.blob.length?'…':''), onClick:()=>this.go(e.p.id==='front'?'home':e.p.id,e.s.id)}); });
+      results=hits.sort((x,y)=>x.rank-y.rank).slice(0,40); }
+    const showResults=st.searchOpen&&qf.length>=2;
+
+    return Object.assign(base,{
+      ready:true, isHome, isPart:!isHome, navParts, sections,
+      cur:{num:curRaw.num, title:curRaw.title, intro:curRaw.intro||'', hasIntro:!!curRaw.intro},
+      toc:body.map(p=>({key:p.id, num:p.num, title:p.title, intro:p.intro||'', count:p.sections.length+' '+ui.sections, onClick:()=>this.go(p.id)})),
+      goFirst:()=>this.go('p1'), goQuick:()=>this.go('p12'), goQa:()=>this.go('p11','11-2'),
+      hasPrev:!!prevId, hasNext:!!nextId, prev:prevId?{label:lab(prevId),onClick:()=>this.go(prevId)}:{label:'',onClick:null}, next:nextId?{label:lab(nextId),onClick:()=>this.go(nextId)}:{label:'',onClick:null},
+      results, showResults, noResults:showResults&&results.length===0, resultCount:results.length+' '+ui.results,
+      onSearchKey:(e)=>{ if(e.key==='Enter'&&results.length) results[0].onClick(); if(e.key==='Escape') this.setState({searchOpen:false}); },
+      screenLabel:isHome?'Cover':(ui.part+' '+curRaw.num+' '+curRaw.title)
+    });
+  }
+}
+</script>
+</body>
+</html>
